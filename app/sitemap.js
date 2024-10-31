@@ -7,6 +7,12 @@ export default function sitemap() {
       priority: 1,
     },
     {
+      url: 'https://resume-builder-omega-beige.vercel.app/tips',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 1,
+    },
+    {
       url: 'https://resume-builder-omega-beige.vercel.app/resumes',
       lastModified: new Date(),
       changeFrequency: 'yearly',

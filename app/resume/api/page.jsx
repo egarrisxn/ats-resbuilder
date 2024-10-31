@@ -7,8 +7,8 @@ export default function APIPage() {
       <Header />
       <h5 className='pb-1 text-center'>
         This resume fetches data from an API endpoint (app/api/resume-data) and displays it using
-        various section components (components/sections/index). It initializes with empty state,
-        updates with fetched data, and renders the sections.
+        various section components (components/sections). It initializes with empty state, updates
+        with fetched data, and renders the sections.
       </h5>
       <APIResume />
     </div>

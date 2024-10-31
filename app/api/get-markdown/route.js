@@ -3,9 +3,9 @@ import path from 'path'
 
 export async function GET() {
   const filePath = path.join(process.cwd(), 'app/data/resume.md')
-  const fileContent = fs.readFileSync(filePath, 'utf8')
+  const markdownContent = fs.readFileSync(filePath, 'utf8')
 
-  return new Response(fileContent, {
+  return new Response(markdownContent, {
     headers: {
       'Content-Type': 'text/markdown',
     },
