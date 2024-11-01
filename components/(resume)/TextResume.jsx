@@ -131,7 +131,7 @@ export default function TextResume() {
       <h3>Technical Skills</h3>
       <ul>
         <li>
-          Front-End Development: HTML3, CSS5, JavaScript, TypeScript, React, Next.js, Astro,
+          Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Astro,
           Tailwind CSS
         </li>
         <li>

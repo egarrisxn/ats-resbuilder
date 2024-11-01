@@ -10,7 +10,7 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://resume-builder-omega-beige.vercel.app'),
+  metadataBase: new URL('https://ats-resbuilder.vercel.app'),
   title: 'Resume Builder.',
   description: 'ATS Certified Resume',
   referrer: 'origin-when-cross-origin',
@@ -34,8 +34,8 @@ export const metadata = {
     locale: 'en_US',
     title: 'Resume Builder.',
     description: 'ATS Certified Resume',
-    url: 'https://resume-builder-omega-beige.vercel.app',
-    siteName: 'resume-builder-omega-beige.vercel.app',
+    url: 'https://ats-resbuilder.vercel.app',
+    siteName: 'ats-resbuilder.vercel.app',
   },
   twitter: {
     cardType: 'summary_large_image',

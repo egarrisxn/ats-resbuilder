@@ -86,7 +86,7 @@ export async function GET() {
       },
     ],
     skills: [
-      'Front-End Development: HTML3, CSS5, JavaScript, TypeScript, React, Next.js, Astro, Tailwind CSS',
+      'Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Astro, Tailwind CSS',
       'Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL',
       'DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku',
       'Best Practices & Methodologies: Continuous Integration & Deployment, Performance Optimization, SEO',

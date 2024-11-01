@@ -4,7 +4,7 @@ export default function robots() {
       userAgent: '*',
       allow: ['/'],
     },
-    sitemap: 'https://resume-builder-omega-beige.vercel.app/sitemap.xml',
-    host: 'https://resume-builder-omega-beige.vercel.app',
+    sitemap: 'https://ats-resbuilder.vercel.app/sitemap.xml',
+    host: 'https://ats-resbuilder.vercel.app',
   }
 }

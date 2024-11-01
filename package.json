@@ -1,7 +1,7 @@
 {
-  "name": "resume-builder",
+  "name": "ats-resbuilder",
   "version": "1.0.0",
-  "description": "ATS Certified Resume",
+  "description": "ATS Certified Resume Builder",
   "author": "Ethan G",
   "license": "MIT",
   "private": true,
