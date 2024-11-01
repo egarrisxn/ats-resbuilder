@@ -5,9 +5,7 @@ egxworld.net | github.com/egarrisxn | linkedin.com/in/ethan-gx
 
 Summary
 
-Dynamic Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side 
-programming. Skilled in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Proficient in Agile 
-methodologies and optimization, delivering scalable web solutions that meet user needs and business goals.
+Dynamic Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Skilled in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Proficient in Agile methodologies and optimization, delivering scalable web solutions that meet user needs and business goals.
 
 Work Experience
 
@@ -24,7 +22,7 @@ Roughtail Brewing Company, Edmond, Oklahoma, United States
 Sales Manager | Dec 2019 - Aug 2021
 Armadillo Ale Works, Denton, Texas, United States
 - Drove a 25% increase in sales by expanding market reach and establishing strong distributor relationships.
-- Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet company growth objectives.
+- Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet growth goals.
 
 Assistant General Manager | Nov 2017 - Dec 2019
 Northside Drafthouse, Richardson, Texas, United States

@@ -13,8 +13,8 @@ export async function POST(req) {
     const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
     const pageHeight = 11 * 72 // 792 points (11 inches)
     //? A4 format
-    // const pageWidth = 8.27 * 72 // 595.44 points (8.5 inches)
-    // const pageHeight = 11.69 * 72 // 841.68 points (11 inches)
+    // const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
+    // const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
 
     //! Add a page with the desired size
     const page = pdfDoc.addPage([pageWidth, pageHeight])
@@ -30,19 +30,31 @@ export async function POST(req) {
     let {width, height} = page.getSize()
 
     //! Font Sizes and Spacing
-    const fontSize = 9 // Font size for body text
-    const headerFontSize = 9 // Font size for default headers
-    const largerHeaderFontSize = 11 // Font size for specific larger headers
+    //? US Letter format
+    const fontSize = 10 // Font size for body text
+    const headerFontSize = 10 // Font size for default headers
+    const largerHeaderFontSize = 12 // Font size for specific larger headers
     const largestHeaderFontSize = 13 // Font size for largest header
-    const lineHeight = 1.1 * fontSize // Line height for body text
-    const paragraphSpacing = 0.8 * lineHeight // Paragraph spacing
+    const lineHeight = 1.07 * fontSize // Line height for body text
+    const paragraphSpacing = 0.72 * lineHeight // Paragraph spacing
     const bulletPointSize = fontSize // Bullet point size
-    const bulletIndent = 8 // Indent after bullet point
+    const bulletIndent = 6 // Indent after bullet point
     const margin = 16 // Margin from page edges
     const maxLineWidth = width - 2 * margin // Maximum width for text lines
+    //? A4 format
+    // const fontSize = 10 // Font size for body text
+    // const headerFontSize = 10 // Font size for default headers
+    // const largerHeaderFontSize = 12 // Font size for specific larger headers
+    // const largestHeaderFontSize = 15 // Font size for largest header
+    // const lineHeight = 1.1 * fontSize // Line height for body text
+    // const paragraphSpacing = 0.8 * lineHeight // Paragraph spacing
+    // const bulletPointSize = fontSize // Bullet point size
+    // const bulletIndent = 6 // Indent after bullet point
+    // const margin = 16 // Margin from page edges
+    // const maxLineWidth = width - 2 * margin // Maximum width for text lines
 
     //! Initial y position for text, starting from top margin
-    let yPosition = height - 2.8 * fontSize
+    let yPosition = height - 2.7 * fontSize
 
     //! Define header keywords to identify header lines
     const headerKeywords = {
@@ -51,11 +63,10 @@ export async function POST(req) {
       Summary: largerHeaderFontSize,
       'Work Experience': largerHeaderFontSize,
       'Full-Stack Developer | June 2023 - Present': headerFontSize,
-      'Regional Account Manager | Aug 2021 - Dec 2022': headerFontSize,
+      'Regional Account Manager | Aug 2021 - Jan 2023': headerFontSize,
       'Sales Manager | Dec 2019 - Aug 2021': headerFontSize,
-      'Assistant General Manager | Mar 2018 - Dec 2019': headerFontSize,
-      'Account Manager | Feb 2015 - Mar 2018': headerFontSize,
-      'General Manager | Aug 2011 - Feb 2015': headerFontSize,
+      'Assistant General Manager | Nov 2017 - Dec 2019': headerFontSize,
+      'Account Manager | Oct 2014 - Nov 2017': headerFontSize,
       'Education & Certifications': largerHeaderFontSize,
       'Certification - Full-Stack Development Boot Camp | Mar 2023 - June 2023': headerFontSize,
       'Studied - Business Management | Aug 2008 - Dec 2009': headerFontSize,
@@ -65,9 +76,9 @@ export async function POST(req) {
       'Unofficial Merchandise (unofficialmerchandise.vercel.app) | github.com/egarrisxn/unofficial-merchandise':
         headerFontSize,
       'EGxWorld v1 (egxworld.vercel.app) | github.com/egarrisxn/egxworld-v1': headerFontSize,
-      'n00bdev (n00bdev.vercel.app) | github.com/egarrisxn/n00bdev': headerFontSize,
-      'EG Movies (eg-angular-movies.netlify.app) | github.com/egarrisxn/eg-angular-movies':
+      'ATS Resbuilder (ats-resbuilder.vercel.app) | github.com/egarrisxn/ats-resbuilder':
         headerFontSize,
+      'n00bdev (n00bdev.vercel.app) | github.com/egarrisxn/n00bdev': headerFontSize,
     }
 
     lines.forEach((line) => {
@@ -105,7 +116,7 @@ export async function POST(req) {
         })
 
         //! Apply additional line spacing for bullet points
-        yPosition -= 1.0 * lineHeight // Increase spacing after bullet points
+        yPosition -= 1.03 * lineHeight // Increase spacing after bullet points
       } else {
         //! Split the line into chunks that fit the page width
         const words = trimmedLine.split(' ')

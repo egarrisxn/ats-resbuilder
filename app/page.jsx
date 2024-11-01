@@ -6,7 +6,7 @@ export default function Home() {
       <section className='mx-auto my-4 flex max-w-[40rem] flex-col gap-4 px-4 sm:mt-24'>
         <h1>ATS COMPLIANT RESUME</h1>
         <h4 className='border-l-2 pl-1 leading-relaxed'>
-          This <a href='https://github.com/egarrisxn/resume-builder'>project</a> allows you to
+          This <a href='https://github.com/egarrisxn/ats-resbuilder'>project</a> allows you to
           create, view, edit, and save an <span className='font-medium'>ATS friendly </span> resume!
           Along with that, the project showcases various ways to generate the resume. Built with
           Next.js, it explores different methods to achieve the same outcome. Whether it&apos;s

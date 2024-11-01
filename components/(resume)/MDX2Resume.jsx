@@ -42,7 +42,7 @@ Sales Manager
 _Dec 2019 - Aug 2021_ | Armadillo Ale Works, Denton, Texas, United States
 
 - Drove a 25% increase in sales by expanding market reach and establishing strong distributor relationships.
-- Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet company growth objectives.
+- Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet growth goals.
 
 Assistant General Manager
 

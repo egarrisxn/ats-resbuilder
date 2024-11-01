@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: 'Resume Builder',
-    short_name: 'DevBuild.',
-    description: 'ATS Certified Resume',
+    name: 'ATS Resbuilder',
+    short_name: 'ATS.',
+    description: 'ATS Friendly Resume Nuilder',
     display: 'standalone',
     background_color: '#ffffff',
     theme_color: '#ffffff',

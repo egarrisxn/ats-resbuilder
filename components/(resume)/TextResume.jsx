@@ -75,7 +75,7 @@ export default function TextResume() {
         </li>
         <li>
           Championed collaborative strategies between sales, marketing, and production teams,
-          aligning efforts to meet company growth objectives.
+          aligning efforts to meet growth goals.
         </li>
       </ul>
 

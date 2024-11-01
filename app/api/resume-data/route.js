@@ -43,7 +43,7 @@ export async function GET() {
         location: 'Denton, Texas, United States',
         responsibilities: [
           'Drove a 25% increase in sales by expanding market reach and establishing strong distributor relationships.',
-          'Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet company growth objectives.',
+          'Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet growth goals.',
         ],
       },
       {

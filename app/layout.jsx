@@ -11,8 +11,8 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL('https://ats-resbuilder.vercel.app'),
-  title: 'Resume Builder.',
-  description: 'ATS Certified Resume',
+  title: 'ATS Resbuilder.',
+  description: 'ATS Friendly Resume',
   referrer: 'origin-when-cross-origin',
   keywords: [
     'nextjs, next14, react, reactjs, tailwindcss, javascript, mdx, markdown, json, api, resume, resume-builder',
@@ -32,8 +32,8 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    title: 'Resume Builder.',
-    description: 'ATS Certified Resume',
+    title: 'ATS Resbuilder.',
+    description: 'ATS Friendly Resume',
     url: 'https://ats-resbuilder.vercel.app',
     siteName: 'ats-resbuilder.vercel.app',
   },
@@ -41,8 +41,8 @@ export const metadata = {
     cardType: 'summary_large_image',
     handle: 'eg__xo',
     site: 'https://x.com/eg__xo',
-    title: 'Resume Builder.',
-    description: 'ATS Certified Resume',
+    title: 'ATS Resbuilder.',
+    description: 'ATS Friendly Resume',
   },
 }
 
