@@ -28,7 +28,7 @@ export async function GET() {
       },
       {
         position: 'Regional Account Manager',
-        dates: 'Aug 2021 - Dec 2022',
+        dates: 'Aug 2021 - Jan 2023',
         company: 'Roughtail Brewing Company',
         location: 'Edmond, Oklahoma, United States',
         responsibilities: [
@@ -48,7 +48,7 @@ export async function GET() {
       },
       {
         position: 'Assistant General Manager',
-        dates: 'Mar 2018 - Dec 2019',
+        dates: 'Nov 2017 - Dec 2019',
         company: 'Northside Drafthouse',
         location: 'Richardson, Texas, United States',
         responsibilities: [
@@ -58,22 +58,12 @@ export async function GET() {
       },
       {
         position: 'Account Manager',
-        dates: 'Feb 2015 - Mar 2018',
+        dates: 'Oct 2014 - Nov 2017',
         company: 'FullClip Craft Distributors',
         location: 'Dallas, Texas, United States',
         responsibilities: [
           'Strengthened client relationships and improved satisfaction, leading to increased retention and customer loyalty.',
           'Educated clients on trending products, resulting in higher engagement and repeat business.',
-        ],
-      },
-      {
-        position: 'General Manager',
-        dates: 'Aug 2011 - Feb 2015',
-        company: 'Dallas Beer Kitchen',
-        location: 'Dallas, Texas, United States',
-        responsibilities: [
-          'Enhanced team productivity, driving operational efficiency and achieving significant performance improvements.',
-          'Fostered a culture of innovation, leading to continuous operational enhancements and setting new benchmarks for the business.',
         ],
       },
     ],
@@ -96,10 +86,10 @@ export async function GET() {
       },
     ],
     skills: [
-      'Front-End Development: HTML, CSS, JavaScript, TypeScript, React, Next.js, Angular, Astro, Tailwind CSS',
-      'Back-End Development: Node.js, Express.js, REST APIs, MongoDB, MySQL, PostgreSQL, GraphQL',
-      'DevOps/Tools: Git, Webpack, Vite, ESLint, Sanity, Supabase, Vercel, Heroku, npm, pnpm',
-      'Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance Optimization, SEO',
+      'Front-End Development: HTML3, CSS5, JavaScript, TypeScript, React, Next.js, Astro, Tailwind CSS',
+      'Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL',
+      'DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku',
+      'Best Practices & Methodologies: Continuous Integration & Deployment, Performance Optimization, SEO',
       'Soft Skills: Project Management, Leadership, Communication, Adaptability, Teamwork',
     ],
     projects: [
@@ -131,21 +121,21 @@ export async function GET() {
         ],
       },
       {
+        name: 'ATS Resbuilder',
+        url: 'ats-resbuilder.vercel.app',
+        github: 'github.com/egarrisxn/ats-resbuilder',
+        description: [
+          'Built an intuitive and professional ATS friendly resume template, showcasing multiple ways to generate/save your resume.',
+          'Tech Stack: JavaScript, Node.js, React, Next.js, MDX, Tailwind CSS.',
+        ],
+      },
+      {
         name: 'n00bdev',
         url: 'n00bdev.vercel.app',
         github: 'github.com/egarrisxn/n00bdev',
         description: [
           'Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.',
           'Tech Stack: TypeScript, Node.js, Astro, Tailwind CSS.',
-        ],
-      },
-      {
-        name: 'EG Movies',
-        url: 'eg-angular-movies.netlify.app',
-        github: 'github.com/egarrisxn/eg-angular-movies',
-        description: [
-          'Built an intuitive movie database application featuring detailed information and a user-friendly interface.',
-          'Tech Stack: TypeScript, Node.js, Angular, Tailwind CSS.',
         ],
       },
     ],

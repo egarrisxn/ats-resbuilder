@@ -21,7 +21,7 @@ _June 2023 - Present_ | Freelance, Orlando, Florida, United States
 
 Regional Account Manager
 
-_Aug 2021 - Dec 2022_ | Roughtail Brewing Company, Edmond, Oklahoma, United States
+_Aug 2021 - Jan 2023_ | Roughtail Brewing Company, Edmond, Oklahoma, United States
 
 - Boosted regional sales by 20% through targeted marketing campaigns and strategic partnerships with distributors.
 - Streamlined coordination between sales and production teams, enhancing efficiency and alignment across departments.
@@ -35,24 +35,17 @@ _Dec 2019 - Aug 2021_ | Armadillo Ale Works, Denton, Texas, United States
 
 Assistant General Manager
 
-_Mar 2018 - Dec 2019_ | Northside Drafthouse, Richardson, Texas, United States
+_Nov 2017 - Dec 2019_ | Northside Drafthouse, Richardson, Texas, United States
 
 - Achieved significant reduction in costs through operational improvements, while upholding high service standards.
 - Led a team of 15+ employees, instilling a culture of continuous improvement and setting new standards for service excellence.
 
 Account Manager
 
-_Feb 2015 - Mar 2018_ | FullClip Craft Distributors, Dallas, Texas, United States
+_Oct 2014 - Nov 2017_ | FullClip Craft Distributors, Dallas, Texas, United States
 
 - Strengthened client relationships and improved satisfaction, leading to increased retention and customer loyalty.
 - Educated clients on trending products, resulting in higher engagement and repeat business.
-
-General Manager
-
-_Aug 2011 - Feb 2015_ | Dallas Beer Kitchen, Dallas, Texas, United States
-
-- Enhanced team productivity, driving operational efficiency and achieving significant performance improvements.
-- Fostered a culture of innovation, leading to continuous operational enhancements and setting new benchmarks for the business.
 
 ### Education & Certifications
 
@@ -68,10 +61,10 @@ University of Central Oklahoma, Edmond, Oklahoma, United States
 
 ### Technical Skills
 
-- Front-End Development: HTML, CSS, JavaScript, TypeScript, React, Next.js, Angular, Astro, Tailwind CSS
-- Back-End Development: Node.js, Express.js, REST APIs, MongoDB, MySQL, PostgreSQL, GraphQL
-- DevOps/Tools: Git, Webpack, Vite, ESLint, Sanity, Supabase, Vercel, Heroku, npm, pnpm
-- Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance Optimization, SEO
+- Front-End Development: HTML3, CSS5, JavaScript, TypeScript, React, Next.js, Astro, Tailwind CSS
+- Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL
+- DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku
+- Best Practices & Methodologies: Continuous Integration & Deployment, Performance Optimization, SEO
 - Soft Skills: Project Management, Leadership, Communication, Adaptability, Teamwork
 
 ### Projects
@@ -91,12 +84,12 @@ EGxWorld v1 [(egxworld.vercel.app)](https://egxworld.vercel.app) | [github.com/e
 - Created a personal website and portfolio, highlighting projects and skills with a clean and responsive design.
 - Tech Stack: JavaScript, Node.js, React, Next.js, Tailwind CSS, shadcn/ui.
 
+ATS Resbuilder [(ats-resbuilder.vercel.app)](https://ats-resbuilder.vercel.app) | [github.com/egarrisxn/ats-resbuilder](https://github.com/egarrisxn/ats-resbuilder)
+
+- Built an intuitive and professional ATS friendly resume template, showcasing multiple ways to generate/save your resume.
+- Tech Stack: JavaScript, Node.js, React, Next.js, MDX, Tailwind CSS.
+
 n00bdev [(n00bdev.vercel.app)](https://n00bdev.vercel.app) | [github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
 
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
 - Tech Stack: TypeScript, Node.js, Astro, Tailwind CSS.
-
-EG Movies [(eg-angular-movies.netlify.app)](https://eg-angular-movies.netlify.app) | [github.com/egarrisxn/eg-angular-movies](https://github.com/egarrisxn/eg-angular-movies)
-
-- Built an intuitive movie database application featuring detailed information and a user-friendly interface.
-- Tech Stack: TypeScript, Node.js, Angular, Tailwind CSS.

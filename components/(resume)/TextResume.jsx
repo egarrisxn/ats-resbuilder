@@ -49,7 +49,7 @@ export default function TextResume() {
 
       <p>Regional Account Manager</p>
       <p>
-        <span className='italic'>Aug 2021 - Dec 2022 </span>| Roughtail Brewing Company, Edmond,
+        <span className='italic'>Aug 2021 - Jan 2023 </span>| Roughtail Brewing Company, Edmond,
         Oklahoma, United States
       </p>
       <ul>
@@ -81,7 +81,7 @@ export default function TextResume() {
 
       <p>Assistant General Manager</p>
       <p>
-        <span className='italic'>Mar 2018 - Dec 2019 </span> | Northside Drafthouse, Richardson,
+        <span className='italic'>Nov 2017 - Dec 2019 </span> | Northside Drafthouse, Richardson,
         Texas, United States
       </p>
       <ul>
@@ -97,7 +97,7 @@ export default function TextResume() {
 
       <p>Account Manager</p>
       <p>
-        <span className='italic'>Feb 2015 - Mar 2018 </span> | FullClip Craft Distributors, Dallas,
+        <span className='italic'>Oct 2014 - Nov 2017 </span> | FullClip Craft Distributors, Dallas,
         Texas, United States
       </p>
       <ul>
@@ -107,22 +107,6 @@ export default function TextResume() {
         </li>
         <li>
           Educated clients on trending products, resulting in higher engagement and repeat business.
-        </li>
-      </ul>
-
-      <p>General Manager</p>
-      <p>
-        <span className='italic'> Aug 2011 - Feb 2015 </span> | Dallas Beer Kitchen, Dallas, Texas,
-        United States
-      </p>
-      <ul>
-        <li>
-          Enhanced team productivity, driving operational efficiency and achieving significant
-          performance improvements.
-        </li>
-        <li>
-          Fostered a culture of innovation, leading to continuous operational enhancements and
-          setting new benchmarks for the business.
         </li>
       </ul>
 
@@ -147,17 +131,15 @@ export default function TextResume() {
       <h3>Technical Skills</h3>
       <ul>
         <li>
-          Front-End Development: HTML, CSS, JavaScript, TypeScript, React, Next.js, Angular, Astro,
+          Front-End Development: HTML3, CSS5, JavaScript, TypeScript, React, Next.js, Astro,
           Tailwind CSS
         </li>
         <li>
-          Back-End Development: Node.js, Express.js, REST APIs, MongoDB, MySQL, PostgreSQL, GraphQL
+          Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL
         </li>
+        <li>DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku</li>
         <li>
-          DevOps/Tools: Git, Webpack, Vite, ESLint, Sanity, Supabase, Vercel, Heroku, npm, pnpm
-        </li>
-        <li>
-          Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance
+          Best Practices & Methodologies: Continuous Integration & Deployment, Performance
           Optimization, SEO
         </li>
         <li>Soft Skills: Project Management, Leadership, Communication, Adaptability, Teamwork</li>
@@ -222,6 +204,24 @@ export default function TextResume() {
       </ul>
 
       <p>
+        ATS Resbuilder{' '}
+        <a href='https://ats-resbuilder.vercel.app' target='_blank'>
+          (ats-resbuilder.vercel.app)
+        </a>{' '}
+        |{' '}
+        <a href='https://github.com/egarrisxn/ats-resbuilder' target='_blank'>
+          github.com/egarrisxn/ats-resbuilder
+        </a>
+      </p>
+      <ul>
+        <li>
+          Built an intuitive and professional ATS friendly resume template, showcasing multiple ways
+          to generate/save your resume.
+        </li>
+        <li>Tech Stack: JavaScript, Node.js, React, Next.js, MDX, Tailwind CSS.</li>
+      </ul>
+
+      <p>
         n00bdev{' '}
         <a href='https://n00bdev.vercel.app' target='_blank'>
           (n00bdev.vercel.app)
@@ -237,24 +237,6 @@ export default function TextResume() {
           optimal performance.
         </li>
         <li>Tech Stack: TypeScript, Node.js, Astro, Tailwind CSS.</li>
-      </ul>
-
-      <p>
-        EG Movies{' '}
-        <a href='https://eg-angular-movies.netlify.app' target='_blank'>
-          (eg-angular-movies.netlify.app)
-        </a>{' '}
-        |{' '}
-        <a href='https://github.com/egarrisxn/eg-angular-movies' target='_blank'>
-          github.com/egarrisxn/eg-angular-movies
-        </a>
-      </p>
-      <ul>
-        <li>
-          Built an intuitive movie database application featuring detailed information and a
-          user-friendly interface.
-        </li>
-        <li>Tech Stack: TypeScript, Node.js, Angular, Tailwind CSS.</li>
       </ul>
     </main>
   )
