@@ -1,0 +1,72 @@
+Ethan Garrison
+Software Engineer
+Orlando, Florida | +15802844513 | Egarrisxn@gmail.com
+egxworld.net | linkedin.com/in/ethan-gx | github.com/egarrisxn
+
+
+Summary
+
+Driven Software Engineer with a background in web development and operational management, and a passion for problem-solving, customer success, and emerging technologies. Adept at troubleshooting, resolving complex issues, and collaborating across teams. Hands-on experience with content delivery workflows, monitoring tools, and video editing.
+Known for adaptability, quick learning, and consistently exceeding expectations. Seeking to bring expertise in development, operational efficiency, and customer support to drive technical excellence into this new opportunity.
+
+
+Experience
+
+Freelance Developer | June 2023 - Present
+Remote, Orlando, Florida
+- Built and maintained scalable web applications using modern frameworks like React and Node.js.
+- Enhanced customer satisfaction by delivering responsive and accessible designs tailored to client needs.
+- Troubleshot and resolved technical challenges, ensuring on-time project delivery.
+
+Regional Account Manager | Aug 2021 - Jan 2023
+Roughtail Brewing Company, Edmond, Oklahoma
+- Served as the primary point of contact for distributors, resolving escalations and fostering partnerships.
+- Delivered a 20% boost in regional sales by implementing data-driven marketing strategies.
+
+Sales Manager | Dec 2019 - Aug 2021
+Armadillo Ale Works, Denton, Texas
+- Expanded market reach and grew sales by 25% through strategic partnerships and innovative campaigns.
+- Fostered strong collaboration among sales, production, and marketing teams.
+
+Assistant General Manager | Nov 2017 - Dec 2019
+Northside Drafthouse, Richardson, Texas
+- Streamlined operations and reduced costs while maintaining exceptional service standards.
+- Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.
+
+Account Manager | Oct 2014 - Nov 2017
+FullClip Craft Distributors, Dallas, Texas
+- Maintained client relationships by addressing inquiries and troubleshooting issues.
+- Proactively educated clients on new products, leading to higher satisfaction and retention.
+
+
+Education
+
+Certification - Full-Stack Development Boot Camp | 2023
+University of Central Florida, Orlando, Florida
+Credentials: badgr.com/public/assertions/zGk2wldtSXqeMhEOz2wX5Q
+
+Studied - Business Management | 2008 - 2009
+University of Central Oklahoma, Edmond, Oklahoma
+
+
+Skills
+
+- Web Technologies: React, Node.js, JavaScript, TypeScript, HTML, CSS, JSON, XML, HTTP
+- Systems & Tools: Git, GitHub, Version Control, API Integration, Sanity CMS 
+- Best Practices & Methodologies: Agile, Scrum, Continuous Integration & Deployment, Performance Optimization
+- Soft Skills: Communication, Adaptability, Time Management, Team Collaboration
+
+
+Projects
+
+Sway Bae Official (swaybae.net) | github.com/egarrisxn/swaybaeofficial
+- Designed a website for a content creator, focusing on SEO best practices and seamless integration with a headless CMS.
+
+Unofficial Merchandise (unofficialmerchandise.vercel.app) | github.com/egarrisxn/unofficial-merchandise
+- Built a modern e-commerce site with a client-centric design, optimizing user experience and potential sales conversion.
+
+N00b:Dev - Tips & Tricks for Developers (n00bdev.vercel.app) | github.com/egarrisxn/n00bdev
+- Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
+
+YTS (your-typed-website.vercel.app) | github.com/egarrisxn/your-typed-website
+- Created a sleek, type-safe portfolio template for developers, utilizing the latest frameworks and technologies.
