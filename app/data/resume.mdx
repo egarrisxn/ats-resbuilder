@@ -4,7 +4,7 @@
 
 Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@gmail.com](mailto:egarrisxn@gmail.com)
 
-[egxworld.net](https://egxworld.net) | [github.com/egarrisxn](https://github.com/egarrisxn) | [linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
+[egxo.dev](https://egxo.dev) | [github.com/egarrisxn](https://github.com/egarrisxn) | [linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
 
 ### Summary
 

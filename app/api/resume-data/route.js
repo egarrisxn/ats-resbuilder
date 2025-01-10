@@ -9,7 +9,7 @@ export async function GET() {
       location: 'Orlando, Florida, United States',
       phone: '+15802844513',
       email: 'Egarrisxn@gmail.com',
-      website: 'egxworld.net',
+      website: 'egxo.dev',
       github: 'github.com/egarrisxn',
       linkedin: 'linkedin.com/in/ethan-gx',
     },

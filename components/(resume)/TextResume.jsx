@@ -8,8 +8,8 @@ export default function TextResume() {
         <a href='mailto:egarrisxn@gmail.com'>Egarrisxn@gmail.com</a>
       </p>
       <p>
-        <a href='https://egxworld.net' target='_blank'>
-          egxworld.net
+        <a href='https://egxo.dev' target='_blank'>
+          egxo.dev
         </a>{' '}
         |{' '}
         <a href='https://github.com/egarrisxn' target='_blank'>
