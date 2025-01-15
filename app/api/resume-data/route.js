@@ -10,8 +10,8 @@ export async function GET() {
       phone: '+15802844513',
       email: 'Egarrisxn@gmail.com',
       website: 'https://egxo.dev',
-      github: 'github.com/egarrisxn',
-      linkedin: 'linkedin.com/in/ethan-gx',
+      github: 'https://github.com/egarrisxn',
+      linkedin: 'https://linkedin.com/in/ethan-gx',
     },
     summary:
       'Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.',
@@ -95,32 +95,28 @@ export async function GET() {
     projects: [
       {
         name: 'Sway Bae Official',
-        url: 'swaybae.net',
-        github: 'github.com/egarrisxn/swaybaeofficial',
+        github: 'https://github.com/egarrisxn/swaybaeofficial',
         description: [
           'Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.',
         ],
       },
       {
         name: 'Unofficial Merchandise',
-        url: 'unofficialmerchandise.vercel.app',
-        github: 'github.com/egarrisxn/unofficial-merchandise',
+        github: 'https://github.com/egarrisxn/unofficial-merchandise',
         description: [
           'Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.',
         ],
       },
       {
-        name: 'n00bdev',
-        url: 'n00bdev.vercel.app',
-        github: 'github.com/egarrisxn/n00bdev',
+        name: 'N00b:Dev - Tips & Tricks for Developers',
+        github: 'https://github.com/egarrisxn/n00bdev',
         description: [
           'Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.',
         ],
       },
       {
-        name: 'YTS',
-        url: 'your-typed-website.vercel.app',
-        github: 'github.com/egarrisxn/your-typed-website',
+        name: 'Your Typed Website',
+        github: 'https://github.com/egarrisxn/your-typed-website',
         description: [
           'Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.',
         ],

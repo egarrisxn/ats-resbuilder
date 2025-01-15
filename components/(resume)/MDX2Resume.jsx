@@ -15,7 +15,7 @@ export default function MDX2Resume() {
 
 Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@gmail.com](mailto:egarrisxn@gmail.com)
 
-[https://egxo.dev](https://egxo.dev) | [github.com/egarrisxn](https://github.com/egarrisxn) | [linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
+[https://egxo.dev](https://egxo.dev) | [https://github.com/egarrisxn](https://github.com/egarrisxn) | [https://linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
 
 ### Summary
 
@@ -80,19 +80,19 @@ University of Central Oklahoma, Edmond, Oklahoma, United States
 
 ### Projects
 
-Sway Bae Official [(swaybae.net)](https://swaybae.net) | [github.com/egarrisxn/swaybaeofficial](https://github.com/egarrisxn/swaybaeofficial)
+Sway Bae Official | [https://github.com/egarrisxn/swaybaeofficial](https://github.com/egarrisxn/swaybaeofficial)
 
 - Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.
 
-Unofficial Merchandise [(unofficialmerchandise.vercel.app)](https://unofficialmerchandise.vercel.app) | [github.com/egarrisxn/unofficial-merchandise](https://github.com/egarrisxn/unofficial-merchandise)
+Unofficial Merchandise | [https://github.com/egarrisxn/unofficial-merchandise](https://github.com/egarrisxn/unofficial-merchandise)
 
 - Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
 
-n00bdev [(n00bdev.vercel.app)](https://n00bdev.vercel.app) | [github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
+N00b:Dev - Tips & Tricks for Developers | [https://github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
 
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
 
-YTS [(your-typed-website.vercel.app)](https://your-typed-website.vercel.app) | [github.com/egarrisxn/your-typed-website](https://github.com/egarrisxn/your-typed-website)
+Your Typed Website | [https://github.com/egarrisxn/your-typed-website](https://github.com/egarrisxn/your-typed-website)
 
 - Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.
           `}

@@ -13,11 +13,11 @@ export default function TextResume() {
         </a>{' '}
         |{' '}
         <a href='https://github.com/egarrisxn' target='_blank'>
-          github.com/egarrisxn
+          https://github.com/egarrisxn
         </a>{' '}
         |{' '}
         <a href='https://linkedin.com/in/ethan-gx' target='_blank'>
-          linkedin.com/in/ethan-gx
+          https://linkedin.com/in/ethan-gx
         </a>
       </p>
 
@@ -154,13 +154,9 @@ export default function TextResume() {
 
       <h3>Projects</h3>
       <p>
-        Sway Bae Official{' '}
-        <a href='https://swaybae.net' target='_blank'>
-          (swaybae.net)
-        </a>{' '}
-        |{' '}
+        Sway Bae Official |{' '}
         <a href='https://github.com/egarrisxn/swaybaeofficial' target='_blank'>
-          github.com/egarrisxn/swaybaeofficial
+          https://github.com/egarrisxn/swaybaeofficial
         </a>
       </p>
       <ul>
@@ -171,16 +167,12 @@ export default function TextResume() {
       </ul>
 
       <p>
-        Unofficial Merchandise{' '}
-        <a href='https://unofficialmerchandise.vercel.app' target='_blank'>
-          (unofficialmerchandise.vercel.app)
-        </a>{' '}
-        |{' '}
+        Unofficial Merchandise |{' '}
         <a
           href='https://github.com/egarrisxn/github.com/egarrisxn/unofficial-merchandise'
           target='_blank'
         >
-          github.com/egarrisxn/unofficial-merchandise
+          https://github.com/egarrisxn/unofficial-merchandise
         </a>
       </p>
       <ul>
@@ -191,13 +183,9 @@ export default function TextResume() {
       </ul>
 
       <p>
-        n00bdev{' '}
-        <a href='https://n00bdev.vercel.app' target='_blank'>
-          (n00bdev.vercel.app)
-        </a>{' '}
-        |{' '}
+        N00b:Dev - Tips & Tricks for Developers |{' '}
         <a href='https://github.com/egarrisxn/n00bdev' target='_blank'>
-          github.com/egarrisxn/n00bdev
+          https://github.com/egarrisxn/n00bdev
         </a>
       </p>
       <ul>
@@ -208,13 +196,9 @@ export default function TextResume() {
       </ul>
 
       <p>
-        YTS{' '}
-        <a href='https:/your-typed-website.vercel.app' target='_blank'>
-          (your-typed-website.vercel.app)
-        </a>{' '}
-        |{' '}
+        Your Typed Website |{' '}
         <a href='https://github.com/egarrisxn/your-typed-website' target='_blank'>
-          github.com/egarrisxn/your-typed-website
+          https://github.com/egarrisxn/your-typed-website
         </a>
       </p>
       <ul>

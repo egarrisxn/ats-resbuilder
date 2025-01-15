@@ -82,11 +82,7 @@ export default function JSONResume() {
       {resume.projects.map((project, index) => (
         <div key={index}>
           <p>
-            {project.name}{' '}
-            <a href={`https://${project.url}`} target='_blank'>
-              ({project.url})
-            </a>{' '}
-            |{' '}
+            {project.name} |{' '}
             <a href={`https://${project.github}`} target='_blank'>
               {project.github}
             </a>

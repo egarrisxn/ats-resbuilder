@@ -10,7 +10,7 @@ export function Projects({data}) {
         data.map((project, index) => (
           <div key={index}>
             <p>
-              {project.name} ({project.url}) | {project.github}
+              {project.name} | {project.github}
             </p>
             <ul>
               {project.description.map((desc, idx) => (
