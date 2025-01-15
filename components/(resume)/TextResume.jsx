@@ -9,7 +9,7 @@ export default function TextResume() {
       </p>
       <p>
         <a href='https://egxo.dev' target='_blank'>
-          egxo.dev
+          https://egxo.dev
         </a>{' '}
         |{' '}
         <a href='https://github.com/egarrisxn' target='_blank'>
@@ -23,11 +23,11 @@ export default function TextResume() {
 
       <h3>Summary</h3>
       <p>
-        Dynamic Full-Stack Developer with a strong foundation in management, now focused on
-        front-end development and server-side programming. Skilled in creating responsive and
-        accessible user interfaces, managing databases, and integrating APIs. Proficient in Agile
-        methodologies and optimization, delivering scalable web solutions that meet user needs and
-        business goals.
+        Versatile Full-Stack Developer with a strong foundation in management, now focused on
+        front-end development and server-side programming. Proficient in creating responsive and
+        accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile
+        methodologies and optimization, delivering scalable web solutions aligned with user needs
+        and client objectives.
       </p>
 
       <h3>Work Experience</h3>
@@ -38,11 +38,11 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Develop and deploy applications using modern frameworks like React and Node.js, delivering
-          scalable solutions for client needs.
+          Develop and deploy high-quality applications using modern frameworks like React, Tailwind
+          CSS, and Node.js.
         </li>
         <li>
-          Implement responsive, accessible design principles for optimal user experience and
+          Implement responsive, accessible design principles for exceptional user experience and
           standards compliance.
         </li>
       </ul>
@@ -54,12 +54,12 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Boosted regional sales by 20% through targeted marketing campaigns and strategic
-          partnerships with distributors.
+          Resolved escalations and nurtured distributor relationships to strengthen business
+          partnerships.
         </li>
         <li>
-          Streamlined coordination between sales and production teams, enhancing efficiency and
-          alignment across departments.
+          Delivered a 20% increase in regional sales by implementing data-driven marketing
+          strategies.
         </li>
       </ul>
 
@@ -70,12 +70,12 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Drove a 25% increase in sales by expanding market reach and establishing strong
-          distributor relationships.
+          Expanded market reach, achieving a 25% sales growth through strategic partnerships and
+          innovative campaigns.
         </li>
         <li>
-          Championed collaborative strategies between sales, marketing, and production teams,
-          aligning efforts to meet growth goals.
+          Facilitated collaboration across sales, production, and marketing teams to streamline
+          operations.
         </li>
       </ul>
 
@@ -86,12 +86,11 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Achieved significant reduction in costs through operational improvements, while upholding
-          high service standards.
+          Streamlined operations and reduced costs while maintaining exceptional service standards.
         </li>
         <li>
-          Led a team of 15+ employees, instilling a culture of continuous improvement and setting
-          new standards for service excellence.
+          Supervised a team of 15+ employees, fostering a culture of excellence and continuous
+          improvement.
         </li>
       </ul>
 
@@ -102,11 +101,12 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Strengthened client relationships and improved satisfaction, leading to increased
-          retention and customer loyalty.
+          Cultivated long-term client relationships by resolving inquiries efficiently and providing
+          tailored solutions.
         </li>
         <li>
-          Educated clients on trending products, resulting in higher engagement and repeat business.
+          Proactively educated clients on new products, leading to a higher satisfaction and
+          retention rate.
         </li>
       </ul>
 
@@ -131,18 +131,25 @@ export default function TextResume() {
       <h3>Technical Skills</h3>
       <ul>
         <li>
-          Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Astro,
-          Tailwind CSS
+          Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS,
+          UX/UI Design
         </li>
         <li>
-          Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL
+          Back-End Development: Node.js, Express.js, Hono, REST APIs, SQL(MySQL), NoSQL(MongoDB),
+          PostgreSQL
         </li>
-        <li>DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku</li>
         <li>
-          Best Practices & Methodologies: Continuous Integration & Deployment, Performance
-          Optimization, SEO
+          DevOps/Tools: Version Control, API Integration, Git, Webpack, Vite, Pnpm, ESlint, Jest,
+          Sanity CMS
         </li>
-        <li>Soft Skills: Project Management, Leadership, Communication, Adaptability, Teamwork</li>
+        <li>
+          Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance
+          and SEO Optimization
+        </li>
+        <li>
+          Soft Skills: Project Management, Communication, Adaptability, Time Management, Team
+          Collaboration
+        </li>
       </ul>
 
       <h3>Projects</h3>
@@ -158,10 +165,9 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Developed a website for a content creator, focusing on SEO best practices and seamless
-          integration with a headless CMS.
+          Built a professional website optimized for SEO and integrated with a headless CMS to
+          enhance content management.
         </li>
-        <li>Tech Stack: JavaScript, Node.js, React, Next.js, Sanity, Tailwind CSS, daisyUI.</li>
       </ul>
 
       <p>
@@ -179,46 +185,9 @@ export default function TextResume() {
       </p>
       <ul>
         <li>
-          Built a modern e-commerce storefront with a client-centric design, optimizing user
-          experience and potential sales conversion.
+          Created a modern e-commerce site with a user-centric design, enhancing user experience and
+          driving sales potential.
         </li>
-        <li>Tech Stack: JavaScript, Node.js, React, Next.js, Sanity, Stripe, Tailwind CSS.</li>
-      </ul>
-
-      <p>
-        EGxWorld v1{' '}
-        <a href='https://egxworld.vercel.app' target='_blank'>
-          (egxworld.vercel.app)
-        </a>{' '}
-        |{' '}
-        <a href='https://github.com/egarrisxn/egxworld-v1' target='_blank'>
-          github.com/egarrisxn/egxworld-v1
-        </a>
-      </p>
-      <ul>
-        <li>
-          Created a personal website and portfolio, highlighting projects and skills with a clean
-          and responsive design.
-        </li>
-        <li>Tech Stack: JavaScript, Node.js, React, Next.js, Tailwind CSS, shadcn/ui.</li>
-      </ul>
-
-      <p>
-        ATS Resbuilder{' '}
-        <a href='https://ats-resbuilder.vercel.app' target='_blank'>
-          (ats-resbuilder.vercel.app)
-        </a>{' '}
-        |{' '}
-        <a href='https://github.com/egarrisxn/ats-resbuilder' target='_blank'>
-          github.com/egarrisxn/ats-resbuilder
-        </a>
-      </p>
-      <ul>
-        <li>
-          Built an intuitive and professional ATS friendly resume template, showcasing multiple ways
-          to generate/save your resume.
-        </li>
-        <li>Tech Stack: JavaScript, Node.js, React, Next.js, MDX, Tailwind CSS.</li>
       </ul>
 
       <p>
@@ -236,7 +205,23 @@ export default function TextResume() {
           Developed a server-side rendered blog, focusing on delivering insightful content with
           optimal performance.
         </li>
-        <li>Tech Stack: TypeScript, Node.js, Astro, Tailwind CSS.</li>
+      </ul>
+
+      <p>
+        YTS{' '}
+        <a href='https:/your-typed-website.vercel.app' target='_blank'>
+          (your-typed-website.vercel.app)
+        </a>{' '}
+        |{' '}
+        <a href='https://github.com/egarrisxn/your-typed-website' target='_blank'>
+          github.com/egarrisxn/your-typed-website
+        </a>
+      </p>
+      <ul>
+        <li>
+          Designed a type-safe portfolio template for developers, leveraging modern frameworks for
+          enhanced functionality.
+        </li>
       </ul>
     </main>
   )

@@ -4,11 +4,11 @@
 
 Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@gmail.com](mailto:egarrisxn@gmail.com)
 
-[egxo.dev](https://egxo.dev) | [github.com/egarrisxn](https://github.com/egarrisxn) | [linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
+[https://egxo.dev](https://egxo.dev) | [github.com/egarrisxn](https://github.com/egarrisxn) | [linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
 
 ### Summary
 
-Dynamic Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Skilled in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Proficient in Agile methodologies and optimization, delivering scalable web solutions that meet user needs and business goals.
+Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
 
 ### Work Experience
 
@@ -16,36 +16,36 @@ Full-Stack Developer
 
 _June 2023 - Present_ | Freelance, Orlando, Florida, United States
 
-- Develop and deploy applications using modern frameworks like React and Node.js, delivering scalable solutions for client needs.
-- Implement responsive, accessible design principles for optimal user experience and standards compliance.
+- Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.
+- Implement responsive, accessible design principles for exceptional user experience and standards compliance.
 
 Regional Account Manager
 
 _Aug 2021 - Jan 2023_ | Roughtail Brewing Company, Edmond, Oklahoma, United States
 
-- Boosted regional sales by 20% through targeted marketing campaigns and strategic partnerships with distributors.
-- Streamlined coordination between sales and production teams, enhancing efficiency and alignment across departments.
+- Resolved escalations and nurtured distributor relationships to strengthen business partnerships.
+- Delivered a 20% increase in regional sales by implementing data-driven marketing strategies.
 
 Sales Manager
 
 _Dec 2019 - Aug 2021_ | Armadillo Ale Works, Denton, Texas, United States
 
-- Drove a 25% increase in sales by expanding market reach and establishing strong distributor relationships.
-- Championed collaborative strategies between sales, marketing, and production teams, aligning efforts to meet growth goals.
+- Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.
+- Facilitated collaboration across sales, production, and marketing teams to streamline operations.
 
 Assistant General Manager
 
 _Nov 2017 - Dec 2019_ | Northside Drafthouse, Richardson, Texas, United States
 
-- Achieved significant reduction in costs through operational improvements, while upholding high service standards.
-- Led a team of 15+ employees, instilling a culture of continuous improvement and setting new standards for service excellence.
+- Streamlined operations and reduced costs while maintaining exceptional service standards.
+- Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.
 
 Account Manager
 
 _Oct 2014 - Nov 2017_ | FullClip Craft Distributors, Dallas, Texas, United States
 
-- Strengthened client relationships and improved satisfaction, leading to increased retention and customer loyalty.
-- Educated clients on trending products, resulting in higher engagement and repeat business.
+- Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.
+- Proactively educated clients on new products, leading to a higher satisfaction and retention rate.
 
 ### Education & Certifications
 
@@ -61,35 +61,26 @@ University of Central Oklahoma, Edmond, Oklahoma, United States
 
 ### Technical Skills
 
-- Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Astro, Tailwind CSS
-- Back-End Development: Node.js, Express.js, REST APIs, Hono, MongoDB, MySQL, PostgreSQL
-- DevOps/Tools: Git, Webpack, Vite, Jest, ESLint, npm, pnpm, Sanity, Vercel, Heroku
-- Best Practices & Methodologies: Continuous Integration & Deployment, Performance Optimization, SEO
-- Soft Skills: Project Management, Leadership, Communication, Adaptability, Teamwork
+- Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS, UX/UI Design
+- Back-End Development: Node.js, Express.js, Hono, REST APIs, SQL(MySQL), NoSQL(MongoDB), PostgreSQL
+- DevOps/Tools: Version Control, API Integration, Git, Webpack, Vite, Pnpm, ESlint, Jest, Sanity CMS
+- Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance and SEO Optimization
+- Soft Skills: Project Management, Communication, Adaptability, Time Management, Team Collaboration
 
 ### Projects
 
 Sway Bae Official [(swaybae.net)](https://swaybae.net) | [github.com/egarrisxn/swaybaeofficial](https://github.com/egarrisxn/swaybaeofficial)
 
-- Developed a website for a content creator, focusing on SEO best practices and seamless integration with a headless CMS..
-- Tech Stack: JavaScript, Node.js, React, Next.js, Sanity, Tailwind CSS, daisyUI.
+- Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.
 
 Unofficial Merchandise [(unofficialmerchandise.vercel.app)](https://unofficialmerchandise.vercel.app) | [github.com/egarrisxn/unofficial-merchandise](https://github.com/egarrisxn/unofficial-merchandise)
 
-- Built a modern e-commerce storefront with a client-centric design, optimizing user experience and potential sales conversion.
-- Tech Stack: JavaScript, Node.js, React, Next.js, Sanity, Stripe, Tailwind CSS.
-
-EGxWorld v1 [(egxworld.vercel.app)](https://egxworld.vercel.app) | [github.com/egarrisxn/egxworld-v1](https://github.com/egarrisxn/egxworld-v1)
-
-- Created a personal website and portfolio, highlighting projects and skills with a clean and responsive design.
-- Tech Stack: JavaScript, Node.js, React, Next.js, Tailwind CSS, shadcn/ui.
-
-ATS Resbuilder [(ats-resbuilder.vercel.app)](https://ats-resbuilder.vercel.app) | [github.com/egarrisxn/ats-resbuilder](https://github.com/egarrisxn/ats-resbuilder)
-
-- Built an intuitive and professional ATS friendly resume template, showcasing multiple ways to generate/save your resume.
-- Tech Stack: JavaScript, Node.js, React, Next.js, MDX, Tailwind CSS.
+- Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
 
 n00bdev [(n00bdev.vercel.app)](https://n00bdev.vercel.app) | [github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
 
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
-- Tech Stack: TypeScript, Node.js, Astro, Tailwind CSS.
+
+YTS [(your-typed-website.vercel.app)](https://your-typed-website.vercel.app) | [github.com/egarrisxn/your-typed-website](https://github.com/egarrisxn/your-typed-website)
+
+- Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.

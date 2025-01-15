@@ -1,34 +1,23 @@
 ETHAN GARRISON
-Software Engineer
+Full-Stack Developer
 Orlando, Florida | +15802844513 | Egarrisxn@gmail.com
-egxo.dev | linkedin.com/in/ethan-gx | github.com/egarrisxn
+https://egxo.dev | linkedin.com/in/ethan-gx | github.com/egarrisxn
 
 
 
-WURL, LLC.
+Epic Games Hiring Team
+Cary, North Carolina
 
 
-Dear Wurl Hiring Manager, 
+Dear Epic Games Hiring Team,
 
-I’m thrilled to apply for the Support Engineer position at Wurl! The opportunity to combine my technical skills, customer-focused mindset, and passion for emerging technology with a
-company that’s reshaping how we experience TV feels like the perfect match.
+My name is Ethan Garrison, and I’m excited to apply for the Web Engineer position on the Epic Games Services team. As a freelance developer with experience building responsive and scalable web applications using React, TypeScript, and Node.js, I’m eager to bring my technical skills and passion for innovation to one of the leading names in gaming and technology.
 
-In my career, I’ve always enjoyed the challenge of solving problems and creating meaningful connections, whether that’s troubleshooting a technical issue or collaborating with a team to deliver great results. As a freelance developer, I’ve designed and built responsive, accessible
-web applications that meet real client needs, often navigating complex challenges to ensure everything runs smoothly. My operational background in account management and team leadership equipped me with strong communication, time management, and customer
-resolution skills—traits essential for the fast-paced, customer-first environment Wurl fosters.
+I greatly admire Epic’s commitment to delivering fast, reliable, and accessible applications that impact millions of users worldwide. The opportunity to contribute to the Epic Games Store and other transformative projects inspires me to take on new challenges and expand my career in web development.
 
-While I’m expanding my expertise in digital video delivery workflows, I have practical
-experience with JSON, XML, and basic knowledge of formats like HLS and MPEG-TS. Additionally, I’ve assisted in the video editing and content creation processes for a
-professional streamer, deepening my understanding of video workflows. My familiarity with
-tools for issue tracking, project management, and version control, combined with my
-adaptability and eagerness to learn, ensures I can quickly grasp Wurl’s systems, like
-Zendesk and Jira.
+As you’ll see in my resume, I have a strong background in designing and implementing solutions independently. My work has focused on performance optimization, API integration, and database management, with a priority on user experience. I consistently seek to refine my process, using tools like Jest for testing and CI/CD pipelines to ensure efficient and high-quality development. I’m confident these skills align with the needs of the Web Engineer role and your innovative team.
 
-Your emphasis on mentorship and collaboration align with my values. I’m inspired by the opportunity to work alongside the industry’s brightest minds and contribute to a team
-redefining the TV experience. I am confident that my technical acumen, customer-first
-mindset, and enthusiasm for technology position me as a strong candidate for this role.
-
-Thank you for your time and consideration.
+I’ve attached my resume for your review, which highlights more details about my experience, skills, and education. Please don’t hesitate to reach out if you need any additional information. I look forward to the possibility of contributing to Epic Games’ mission and would welcome the chance to discuss how I can support your team’s success.
 
 Best regards,
 Ethan Garrison

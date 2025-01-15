@@ -1,32 +1,30 @@
 Ethan Garrison
-Software Engineer
+Full-Stack Developer
 Orlando, Florida | +15802844513 | Egarrisxn@gmail.com
-egxo.dev | linkedin.com/in/ethan-gx | github.com/egarrisxn
+https://egxo.dev | linkedin.com/in/ethan-gx | github.com/egarrisxn
 
 
 Summary
 
-Driven Software Engineer with a background in web development and operational management, and a passion for problem-solving, customer success, and emerging technologies. Adept at troubleshooting, resolving complex issues, and collaborating across teams. Hands-on experience with content delivery workflows, monitoring tools, and video editing.
-Known for adaptability, quick learning, and consistently exceeding expectations. Seeking to bring expertise in development, operational efficiency, and customer support to drive technical excellence into this new opportunity.
+Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
 
 
 Experience
 
-Freelance Developer | June 2023 - Present
-Remote, Orlando, Florida
-- Built and maintained scalable web applications using modern frameworks like React and Node.js.
-- Enhanced customer satisfaction by delivering responsive and accessible designs tailored to client needs.
-- Troubleshot and resolved technical challenges, ensuring on-time project delivery.
+Full-Stack Developer | June 2023 - Present
+Freelance, Orlando, Florida
+- Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.
+- Implement responsive, accessible design principles for exceptional user experience and standards compliance.
 
 Regional Account Manager | Aug 2021 - Jan 2023
 Roughtail Brewing Company, Edmond, Oklahoma
-- Served as the primary point of contact for distributors, resolving escalations and fostering partnerships.
-- Delivered a 20% boost in regional sales by implementing data-driven marketing strategies.
+- Resolved escalations and nurtured distributor relationships to strengthen business partnerships.
+- Delivered a 20% increase in regional sales by implementing data-driven marketing strategies.
 
 Sales Manager | Dec 2019 - Aug 2021
 Armadillo Ale Works, Denton, Texas
-- Expanded market reach and grew sales by 25% through strategic partnerships and innovative campaigns.
-- Fostered strong collaboration among sales, production, and marketing teams.
+- Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.
+- Facilitated collaboration across sales, production, and marketing teams to streamline operations.
 
 Assistant General Manager | Nov 2017 - Dec 2019
 Northside Drafthouse, Richardson, Texas
@@ -35,8 +33,8 @@ Northside Drafthouse, Richardson, Texas
 
 Account Manager | Oct 2014 - Nov 2017
 FullClip Craft Distributors, Dallas, Texas
-- Maintained client relationships by addressing inquiries and troubleshooting issues.
-- Proactively educated clients on new products, leading to higher satisfaction and retention.
+- Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.
+- Proactively educated clients on new products, leading to a higher satisfaction and retention rate.
 
 
 Education
@@ -51,22 +49,23 @@ University of Central Oklahoma, Edmond, Oklahoma
 
 Skills
 
-- Web Technologies: React, Node.js, JavaScript, TypeScript, HTML, CSS, JSON, XML, HTTP
-- Systems & Tools: Git, GitHub, Version Control, API Integration, Sanity CMS 
-- Best Practices & Methodologies: Agile, Scrum, Continuous Integration & Deployment, Performance Optimization
-- Soft Skills: Communication, Adaptability, Time Management, Team Collaboration
+- Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS, UX/UI Design
+- Back-End Development: Node.js, Express.js, Hono, REST APIs, SQL(MySQL), NoSQL(MongoDB), PostgreSQL
+- DevOps/Tools: Version Control, API Integration, Git, Webpack, Vite, Pnpm, ESlint, Jest, Sanity CMS
+- Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance and SEO Optimization
+- Soft Skills: Project Management, Communication, Adaptability, Time Management, Team Collaboration
 
 
 Projects
 
 Sway Bae Official (swaybae.net) | github.com/egarrisxn/swaybaeofficial
-- Designed a website for a content creator, focusing on SEO best practices and seamless integration with a headless CMS.
+- Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.
 
 Unofficial Merchandise (unofficialmerchandise.vercel.app) | github.com/egarrisxn/unofficial-merchandise
-- Built a modern e-commerce site with a client-centric design, optimizing user experience and potential sales conversion.
+- Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
 
 N00b:Dev - Tips & Tricks for Developers (n00bdev.vercel.app) | github.com/egarrisxn/n00bdev
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
 
 YTS (your-typed-website.vercel.app) | github.com/egarrisxn/your-typed-website
-- Created a sleek, type-safe portfolio template for developers, utilizing the latest frameworks and technologies.
+- Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.

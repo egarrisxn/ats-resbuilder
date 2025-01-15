@@ -9,6 +9,7 @@ export async function POST(req) {
     const pdfDoc = await PDFDocument.create()
 
     //! Define page size
+    //? US Letter format
     const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
     const pageHeight = 11 * 72 // 792 points (11 inches)
     //? A4 format
@@ -42,10 +43,10 @@ export async function POST(req) {
     //! Define header keywords to identify header lines
     const headerKeywords = {
       'Ethan Garrison': largestHeaderFontSize,
-      'Software Engineer': largerHeaderFontSize,
+      'Full-Stack Developer': largerHeaderFontSize,
       Summary: largerHeaderFontSize,
       Experience: largerHeaderFontSize,
-      'Freelance Developer | June 2023 - Present': headerFontSize,
+      'Full-Stack Developer | June 2023 - Present': headerFontSize,
       'Regional Account Manager | Aug 2021 - Jan 2023': headerFontSize,
       'Sales Manager | Dec 2019 - Aug 2021': headerFontSize,
       'Assistant General Manager | Nov 2017 - Dec 2019': headerFontSize,
