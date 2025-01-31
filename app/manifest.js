@@ -18,6 +18,12 @@ export default function manifest() {
         sizes: '384x384',
         type: 'image/png',
       },
+      {
+        src: '/icon-mask.png',
+        type: 'image/png',
+        sizes: '384x384',
+        purpose: 'maskable',
+      },
     ],
   }
 }
