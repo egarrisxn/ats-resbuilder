@@ -92,7 +92,7 @@ N00b:Dev - Tips & Tricks for Developers | [https://github.com/egarrisxn/n00bdev]
 
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
 
-Your Typed Website | [https://github.com/egarrisxn/your-typed-website](https://github.com/egarrisxn/your-typed-website)
+CC NextFolio | [https://github.com/egarrisxn/cc-nextfolio](https://github.com/egarrisxn/cc-nextfolio)
 
 - Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.
           `}

@@ -115,8 +115,8 @@ export async function GET() {
         ],
       },
       {
-        name: 'Your Typed Website',
-        github: 'https://github.com/egarrisxn/your-typed-website',
+        name: 'CC NextFolio',
+        github: 'https://github.com/egarrisxn/cc-nextfolio',
         description: [
           'Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.',
         ],

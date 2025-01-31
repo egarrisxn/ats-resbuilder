@@ -196,9 +196,9 @@ export default function TextResume() {
       </ul>
 
       <p>
-        Your Typed Website |{' '}
-        <a href='https://github.com/egarrisxn/your-typed-website' target='_blank'>
-          https://github.com/egarrisxn/your-typed-website
+        CC NextFolio |{' '}
+        <a href='https://github.com/egarrisxn/cc-nextfolio' target='_blank'>
+          https://github.com/egarrisxn/cc-nextfolio
         </a>
       </p>
       <ul>

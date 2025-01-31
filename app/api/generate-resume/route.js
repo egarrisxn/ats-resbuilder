@@ -61,7 +61,7 @@ export async function POST(req) {
         headerFontSize,
       'N00b:Dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev':
         headerFontSize,
-      'Your Typed Website | https://github.com/egarrisxn/your-typed-website': headerFontSize,
+      'CC NextFolio | https://github.com/egarrisxn/cc-nextfolio': headerFontSize,
     }
 
     //! Loop through the content lines
