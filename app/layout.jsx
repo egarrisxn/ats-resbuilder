@@ -12,37 +12,69 @@ const roboto = Roboto({
 export const metadata = {
   metadataBase: new URL('https://ats-resbuilder.vercel.app'),
   title: 'ATS Resbuilder.',
-  description: 'ATS Friendly Resume',
+  description: 'ATS Friendly Resume Builder!',
   referrer: 'origin-when-cross-origin',
   keywords: [
     'nextjs, next14, react, reactjs, tailwindcss, javascript, mdx, markdown, json, api, resume, resume-builder',
   ],
-  creator: {name: 'Ethan Garrison', url: 'https://github.com/egarrisxn'},
+  creator: 'https://egxo.dev.',
   robots: {
     index: true,
-    follow: true,
+    follow: false,
+    nocache: true,
     googleBot: {
       index: true,
-      follow: true,
+      follow: false,
+      noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
     title: 'ATS Resbuilder.',
-    description: 'ATS Friendly Resume',
+    description: 'ATS Friendly Resume Builder!',
     url: 'https://ats-resbuilder.vercel.app',
     siteName: 'ats-resbuilder.vercel.app',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ATS Friendly Resume Builder!',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
-    cardType: 'summary_large_image',
-    handle: 'eg__xo',
-    site: 'https://x.com/eg__xo',
+    card: 'summary_large_image',
     title: 'ATS Resbuilder.',
-    description: 'ATS Friendly Resume',
+    description: 'ATS Friendly Resume Builder!',
+    creator: '@eg__xo',
+    site: '@eg__xo',
+    images: [
+      {
+        url: '/twitter-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ATS Friendly Resume Builder!',
+      },
+    ],
+  },
+  icons: {
+    icon: [
+      {url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon'},
+      {url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png'},
+      {url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png'},
+    ],
+    apple: [{url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png'}],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/apple-touch-icon-precomposed.png',
+      },
+    ],
   },
 }
 
