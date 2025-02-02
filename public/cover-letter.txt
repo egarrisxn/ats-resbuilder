@@ -1,23 +1,23 @@
 ETHAN GARRISON
-Full-Stack Developer
+Full Stack Developer
 Orlando, Florida | +15802844513 | Egarrisxn@gmail.com
 https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarrisxn
 
 
 
-Epic Games Hiring Team
-Cary, North Carolina
+ExampleTech Solutions Hiring Team
+Austin, Texas
 
 
-Dear Epic Games Hiring Team,
+Dear ExampleTech Solutions Hiring Team,
 
-My name is Ethan Garrison, and I’m excited to apply for the Web Engineer position on the Epic Games Services team. As a freelance developer with experience building responsive and scalable web applications using React, TypeScript, and Node.js, I’m eager to bring my technical skills and passion for innovation to one of the leading names in gaming and technology.
+My name is Ethan Garrison, and I’m excited to apply for the Full Stack Developer position at ExampleTech Solutions. As a freelance developer with experience building responsive and scalable web applications using React, TypeScript, and Node.js, I’m eager to bring my technical expertise and passion for innovation to a company known for pushing the boundaries of modern technology.
 
-I greatly admire Epic’s commitment to delivering fast, reliable, and accessible applications that impact millions of users worldwide. The opportunity to contribute to the Epic Games Store and other transformative projects inspires me to take on new challenges and expand my career in web development.
+I greatly admire Innovatech’s dedication to developing cutting-edge software solutions that enhance user experiences across various industries. The opportunity to contribute to projects that prioritize performance, security, and accessibility motivates me to take on new challenges and grow as a developer in a dynamic team environment.
 
-As you’ll see in my resume, I have a strong background in designing and implementing solutions independently. My work has focused on performance optimization, API integration, and database management, with a priority on user experience. I consistently seek to refine my process, using tools like Jest for testing and CI/CD pipelines to ensure efficient and high-quality development. I’m confident these skills align with the needs of the Web Engineer role and your innovative team.
+As outlined in my resume, I have a strong background in designing and implementing solutions independently. My work has focused on performance optimization, API integration, and database management, with a strong emphasis on creating seamless user interactions. I continuously refine my development process by leveraging tools like Jest for testing and CI/CD pipelines to ensure efficient and high-quality deployments. I believe these skills align with the needs of the Full Stack Developer role and your team’s commitment to innovation.
 
-I’ve attached my resume for your review, which highlights more details about my experience, skills, and education. Please don’t hesitate to reach out if you need any additional information. I look forward to the possibility of contributing to Epic Games’ mission and would welcome the chance to discuss how I can support your team’s success.
+I have attached my resume for your review, which provides more details about my experience, skills, and education. Please feel free to reach out if you need any additional information. I look forward to the opportunity to contribute to ExampleTech Solutions’ success and would welcome the chance to discuss how my expertise can support your team.
 
 Best regards,
 Ethan Garrison

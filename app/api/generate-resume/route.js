@@ -10,11 +10,11 @@ export async function POST(req) {
 
     //! Define page size
     //? US Letter format
-    const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
-    const pageHeight = 11 * 72 // 792 points (11 inches)
+    // const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
+    // const pageHeight = 11 * 72 // 792 points (11 inches)
     //? A4 format
-    // const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
-    // const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
+    const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
+    const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
 
     //! Add a page with the desired size
     const page = pdfDoc.addPage([pageWidth, pageHeight])
@@ -43,25 +43,25 @@ export async function POST(req) {
     //! Define header keywords to identify header lines
     const headerKeywords = {
       'Ethan Garrison': largestHeaderFontSize,
-      'Full-Stack Developer': largerHeaderFontSize,
+      'Full Stack Developer': largerHeaderFontSize,
       Summary: largerHeaderFontSize,
       Experience: largerHeaderFontSize,
-      'Full-Stack Developer | June 2023 - Present': headerFontSize,
+      'Full Stack Developer | June 2023 - Present': headerFontSize,
       'Regional Account Manager | Aug 2021 - Jan 2023': headerFontSize,
       'Sales Manager | Dec 2019 - Aug 2021': headerFontSize,
       'Assistant General Manager | Nov 2017 - Dec 2019': headerFontSize,
       'Account Manager | Oct 2014 - Nov 2017': headerFontSize,
       Education: largerHeaderFontSize,
-      'Certification - Full-Stack Development Boot Camp | 2023': headerFontSize,
+      'Certification - Full Stack Development Boot Camp | 2023': headerFontSize,
       'Studied - Business Management | 2008 - 2009': headerFontSize,
       Skills: largerHeaderFontSize,
       Projects: largerHeaderFontSize,
       'Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial': headerFontSize,
       'Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise':
         headerFontSize,
-      'N00b:Dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev':
+      'n00b:dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev':
         headerFontSize,
-      'CC NextFolio | https://github.com/egarrisxn/cc-nextfolio': headerFontSize,
+      'xprod | https://github.com/egarrisxn/xprod': headerFontSize,
     }
 
     //! Loop through the content lines

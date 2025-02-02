@@ -40,8 +40,8 @@ export async function POST(req) {
     //! Define header keywords to identify header lines
     const headerKeywords = {
       'ETHAN GARRISON': largestHeaderFontSize,
-      'Full-Stack Developer': headerFontSize,
-      'Epic Games Hiring Team': headerFontSize,
+      'Full Stack Developer': headerFontSize,
+      'ExampleTech Solutions Hiring Team': headerFontSize,
       'Ethan Garrison': headerFontSize,
     }
 

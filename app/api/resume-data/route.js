@@ -5,7 +5,7 @@ export async function GET() {
     contact: {
       name: 'Ethan Garrison',
       pronouns: '(he/him)',
-      title: 'Full-Stack Developer',
+      title: 'Full Stack Developer',
       location: 'Orlando, Florida, United States',
       phone: '+15802844513',
       email: 'Egarrisxn@gmail.com',
@@ -14,10 +14,10 @@ export async function GET() {
       linkedin: 'https://linkedin.com/in/ethan-gx',
     },
     summary:
-      'Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.',
+      'Versatile Full Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.',
     experience: [
       {
-        position: 'Full-Stack Developer',
+        position: 'Full Stack Developer',
         dates: 'June 2023 - Present',
         company: 'Freelance',
         location: 'Orlando, Florida, United States',
@@ -70,7 +70,7 @@ export async function GET() {
     education: [
       {
         degree: 'Certification',
-        field_of_study: 'Full-Stack Development Boot Camp',
+        field_of_study: 'Full Stack Development Boot Camp',
         dates: 'Mar 2023 - June 2023',
         institution: 'University of Central Florida',
         location: 'Orlando, Florida, United States',
@@ -108,17 +108,17 @@ export async function GET() {
         ],
       },
       {
-        name: 'N00b:Dev - Tips & Tricks for Developers',
+        name: 'n00b:dev - Tips & Tricks for Developers',
         github: 'https://github.com/egarrisxn/n00bdev',
         description: [
           'Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.',
         ],
       },
       {
-        name: 'CC NextFolio',
-        github: 'https://github.com/egarrisxn/cc-nextfolio',
+        name: 'xprod',
+        github: 'https://github.com/egarrisxn/xprod',
         description: [
-          'Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.',
+          'Designed a type-safe productivity web application, leveraging modern frameworks for enhanced functionality.',
         ],
       },
     ],

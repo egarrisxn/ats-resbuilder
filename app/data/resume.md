@@ -1,6 +1,6 @@
 # Ethan Garrison (he/him)
 
-## Full-Stack Developer
+## Full Stack Developer
 
 Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@gmail.com](mailto:egarrisxn@gmail.com)
 
@@ -8,11 +8,11 @@ Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@
 
 ### Summary
 
-Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
+Versatile Full Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
 
 ### Work Experience
 
-Full-Stack Developer
+Full Stack Developer
 
 _June 2023 - Present_ | Freelance, Orlando, Florida, United States
 
@@ -49,7 +49,7 @@ _Oct 2014 - Nov 2017_ | FullClip Craft Distributors, Dallas, Texas, United State
 
 ### Education & Certifications
 
-**Certification** - Full-Stack Development Boot Camp | _Mar 2023 - June 2023_
+**Certification** - Full Stack Development Boot Camp | _Mar 2023 - June 2023_
 
 University of Central Florida, Orlando, Florida, United States
 
@@ -77,10 +77,10 @@ Unofficial Merchandise | [https://github.com/egarrisxn/unofficial-merchandise](h
 
 - Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
 
-N00b:Dev - Tips & Tricks for Developers | [https://github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
+n00b:dev - Tips & Tricks for Developers | [https://github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
 
 - Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
 
-CC NextFolio | [https://github.com/egarrisxn/cc-nextfolio](https://github.com/egarrisxn/cc-nextfolio)
+xprod | [https://github.com/egarrisxn/xprod](https://github.com/egarrisxn/xprod)
 
-- Designed a type-safe portfolio template for developers, leveraging modern frameworks for enhanced functionality.
+- Designed a type-safe productivity web application, leveraging modern frameworks for enhanced functionality.

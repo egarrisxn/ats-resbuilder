@@ -2,7 +2,7 @@ export default function TextResume() {
   return (
     <main>
       <h1>Ethan Garrison (he/him)</h1>
-      <h2>Full-Stack Developer</h2>
+      <h2>Full Stack Developer</h2>
       <p>
         <span>Orlando, Florida, United States</span> | <a href='tel:+15802844513'>+15802844513</a> |{' '}
         <a href='mailto:egarrisxn@gmail.com'>Egarrisxn@gmail.com</a>
@@ -23,7 +23,7 @@ export default function TextResume() {
 
       <h3>Summary</h3>
       <p>
-        Versatile Full-Stack Developer with a strong foundation in management, now focused on
+        Versatile Full Stack Developer with a strong foundation in management, now focused on
         front-end development and server-side programming. Proficient in creating responsive and
         accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile
         methodologies and optimization, delivering scalable web solutions aligned with user needs
@@ -31,7 +31,7 @@ export default function TextResume() {
       </p>
 
       <h3>Work Experience</h3>
-      <p>Full-Stack Developer</p>
+      <p>Full Stack Developer</p>
       <p>
         <span className='italic'>June 2023 - Present </span>| Freelance, Orlando, Florida, United
         States
@@ -112,7 +112,7 @@ export default function TextResume() {
 
       <h3>Education & Certifications</h3>
       <p>
-        <span className='font-semibold'>Certification</span> - Full-Stack Development Boot Camp |{' '}
+        <span className='font-semibold'>Certification</span> - Full Stack Development Boot Camp |{' '}
         <span className='italic'>Mar 2023 - June 2023</span>
       </p>
       <p>University of Central Florida, Orlando, Florida, United States</p>
@@ -183,7 +183,7 @@ export default function TextResume() {
       </ul>
 
       <p>
-        N00b:Dev - Tips & Tricks for Developers |{' '}
+        n00b:dev - Tips & Tricks for Developers |{' '}
         <a href='https://github.com/egarrisxn/n00bdev' target='_blank'>
           https://github.com/egarrisxn/n00bdev
         </a>
@@ -196,14 +196,14 @@ export default function TextResume() {
       </ul>
 
       <p>
-        CC NextFolio |{' '}
-        <a href='https://github.com/egarrisxn/cc-nextfolio' target='_blank'>
-          https://github.com/egarrisxn/cc-nextfolio
+        xprod |{' '}
+        <a href='https://github.com/egarrisxn/xprod' target='_blank'>
+          https://github.com/egarrisxn/xprod
         </a>
       </p>
       <ul>
         <li>
-          Designed a type-safe portfolio template for developers, leveraging modern frameworks for
+          Designed a type-safe productivity web application, leveraging modern frameworks for
           enhanced functionality.
         </li>
       </ul>
