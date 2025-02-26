@@ -43,7 +43,7 @@ export default function ViewResumeButton({onGenerate}) {
 
   return (
     <button
-      className='rounded bg-green-500 px-4 py-2 text-white hover:bg-green-600'
+      className='rounded-lg border-2 bg-green-500 px-6 py-2 uppercase text-white shadow-xl hover:bg-green-500/90'
       onClick={handleGeneratePDF}
       disabled={isGenerating}
     >

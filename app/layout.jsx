@@ -11,8 +11,11 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL('https://ats-resbuilder.vercel.app'),
-  title: 'ATS Resbuilder.',
-  description: 'ATS Friendly Resume Builder!',
+  title: {
+    default: 'ATS | Resbuilder',
+    template: `ATS | %s`,
+  },
+  description: 'An ATS Friendly Resume & Cover Letter Builder!',
   referrer: 'origin-when-cross-origin',
   keywords: [
     'nextjs, next14, react, reactjs, tailwindcss, javascript, mdx, markdown, json, api, resume, resume-builder',
@@ -27,8 +30,8 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'ATS Resbuilder.',
-    description: 'ATS Friendly Resume Builder!',
+    title: 'ATS | Resbuilder',
+    description: 'An ATS Friendly Resume & Cover Letter Builder!',
     url: 'https://ats-resbuilder.vercel.app',
     siteName: 'ats-resbuilder.vercel.app',
     images: [
@@ -36,7 +39,6 @@ export const metadata = {
         url: '/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'ATS Friendly Resume Builder!',
       },
     ],
     locale: 'en_US',
@@ -44,8 +46,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ATS Resbuilder.',
-    description: 'ATS Friendly Resume Builder!',
+    title: 'ATS | Resbuilder',
+    description: 'An ATS Friendly Resume & Cover Letter Builder!',
     creator: '@eg__xo',
     site: '@eg__xo',
     images: [
@@ -53,7 +55,6 @@ export const metadata = {
         url: '/twitter-image.png',
         width: 1200,
         height: 630,
-        alt: 'ATS Friendly Resume Builder!',
       },
     ],
   },
@@ -76,7 +77,9 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang='en'>
-      <body className={`${roboto.className} grid min-h-[100dvh] grid-rows-[auto_1fr_auto]`}>
+      <body
+        className={`${roboto.className} grid min-h-[100dvh] grid-rows-[auto_1fr_auto] bg-slate-50`}
+      >
         <Navbar />
         {children}
         <Footer />

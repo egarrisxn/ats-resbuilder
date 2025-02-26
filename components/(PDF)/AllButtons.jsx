@@ -13,11 +13,15 @@ export default function ResumeButtons() {
   }
 
   return (
-    <section className='flex w-fit flex-col gap-4'>
-      <ViewResumeButton onGenerate={handleGenerate} />
-      <SaveResumeButton onGenerate={handleGenerate} />
-      <ViewCoverLetterButton onGenerate={handleGenerate} />
-      <SaveCoverLetterButton onGenerate={handleGenerate} />
-    </section>
+    <div className='flex w-fit flex-col gap-4'>
+      <section className='flex flex-col gap-4 sm:flex-row'>
+        <ViewResumeButton onGenerate={handleGenerate} />
+        <ViewCoverLetterButton onGenerate={handleGenerate} />
+      </section>
+      <section className='flex flex-col gap-4 sm:flex-row'>
+        <SaveResumeButton onGenerate={handleGenerate} />
+        <SaveCoverLetterButton onGenerate={handleGenerate} />
+      </section>
+    </div>
   )
 }

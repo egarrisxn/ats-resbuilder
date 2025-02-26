@@ -1,12 +1,18 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className='flex h-10 flex-row items-center justify-between border-b-2 border-slate-400 bg-white px-2 sm:px-4 md:px-24'>
-      <div className='flex text-sm font-bold sm:text-base'>
-        ATS <span className='hidden sm:block sm:pl-1'> Resbuilder</span>
-      </div>
-      <div className='flex flex-row gap-2 text-sm sm:gap-4 sm:text-base md:gap-8'>
+    <nav className='flex flex-row items-center justify-between border-b-2 bg-white px-2 py-4 shadow-sm lg:px-12 lg:py-5'>
+      <Link href='/' className='font-black text-black'>
+        <div className='flex items-center sm:flex-row sm:gap-1 sm:pl-1'>
+          <Image src='/favicon-32x32.png' alt='ATS Rebuilder Logo' width={32} height={32} />
+          <p className='hidden text-[1.40rem] font-extrabold tracking-tighter sm:block'>
+            Resbuilder
+          </p>
+        </div>
+      </Link>
+      <div className='flex flex-row gap-1.5 text-sm sm:gap-4 sm:text-base lg:gap-6 lg:text-lg'>
         <Link href='/'>Home</Link>
         <Link href='/create'>Create</Link>
         <Link href='/resume'>Preview/Save</Link>

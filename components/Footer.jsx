@@ -1,7 +1,7 @@
 export default function Footer() {
   const date = new Date().getFullYear()
   return (
-    <footer className='flex h-10 flex-row items-center justify-between border-t-2 border-slate-400 bg-white px-2 sm:px-4 md:px-24'>
+    <footer className='flex flex-row items-center justify-between border-t-2 bg-white px-2 py-4 lg:px-12 lg:py-5'>
       <div className='flex flex-row gap-2 text-sm sm:gap-4 sm:text-base md:gap-8'>
         <a target='_blank' rel='noopener noreferrer' href='https://egxo.dev'>
           Contact
