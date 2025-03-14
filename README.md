@@ -4,6 +4,8 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/resume-builder) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/resume-builder)
 
+## Overview
+
 **Resbuilder | ATS Friendly** is a simple yet powerful ATS friendly resume builder web application. This project demonstrates multiple ways to generate and save resumes in different formats such as Markdown, MDX, plain text, and JSON. This project also allows you to preview and print a pdf version of your resume. It uses modern web technologies to ensure a seamless and efficient user experience.
 
 ## Features
