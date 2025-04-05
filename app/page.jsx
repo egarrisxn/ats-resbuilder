@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='mx-auto my-16 flex flex-col justify-center gap-8 p-4 lg:gap-12 lg:rounded-lg lg:border-2 lg:bg-slate-100 lg:px-12 xl:w-full xl:max-w-screen-2xl xl:flex-row xl:gap-8'>
+    <div className='mx-auto my-16 flex flex-col justify-center gap-8 p-4 lg:gap-12 lg:rounded-lg lg:border-2 lg:bg-slate-100 lg:px-12 xl:w-full xl:max-w-(--breakpoint-2xl) xl:flex-row xl:gap-8'>
       <section className='mx-auto my-4 flex flex-col gap-6 lg:pt-16 xl:w-full'>
-        <h1 className='w-full max-w-[48rem] text-6xl font-black leading-none tracking-tighter sm:text-7xl 2xl:text-8xl'>
+        <h1 className='w-full max-w-[48rem] text-6xl leading-none font-black tracking-tighter sm:text-7xl 2xl:text-8xl'>
           ATS RESUME <span className='text-slate-500'>&</span>
           <br />
           COVER LETTER
@@ -24,8 +24,8 @@ export default function Home() {
           as PDFs using <a href='https://pdf-lib.js.org/'>pdf-lib</a>, with future updates planned
           to support DOC and DOCX formats.
         </p>
-        <Link href='/create'>
-          <button className='w-full max-w-[30rem] rounded-lg border-2 bg-slate-900 p-2 text-lg uppercase tracking-wide text-white shadow-xl hover:bg-slate-900/80 sm:max-w-[38rem]'>
+        <Link href='/docs'>
+          <button className='w-full max-w-[30rem] rounded-lg border-2 bg-slate-900 p-2 text-lg tracking-wide text-white uppercase shadow-xl hover:bg-slate-900/80 sm:max-w-[38rem]'>
             Let&apos;s Begin!
           </button>
         </Link>

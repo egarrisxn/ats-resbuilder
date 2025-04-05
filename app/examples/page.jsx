@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function ResumesPage() {
   return (
-    <div className='my-8 flex w-full max-w-screen-2xl flex-col justify-between gap-8 sm:mx-auto sm:p-4 lg:flex-row lg:gap-12 lg:px-12'>
-      <section className='flex flex-col gap-8 pl-4 lg:mb-4 lg:mt-16 lg:gap-6 lg:pl-16'>
+    <div className='my-8 flex w-full max-w-(--breakpoint-2xl) flex-col justify-between gap-8 sm:mx-auto sm:p-4 lg:flex-row lg:gap-12 lg:px-12'>
+      <section className='flex flex-col gap-8 pl-4 lg:mt-16 lg:mb-4 lg:gap-6 lg:pl-16'>
         <h1 className='text-3xl font-black sm:text-4xl'>
           A couple examples
           <br />
@@ -39,12 +39,12 @@ export default function ResumesPage() {
         </div>
       </section>
 
-      <section className='flex flex-col items-end justify-end gap-1 pr-4 lg:mb-16 lg:mt-4 lg:pr-16'>
-        <p className='mb-0 mt-0 text-[20px] font-semibold leading-[20px]'>
+      <section className='flex flex-col items-end justify-end gap-1 pr-4 lg:mt-4 lg:mb-16 lg:pr-16'>
+        <p className='mt-0 mb-0 text-[20px] leading-[20px] font-semibold'>
           Visit <Link href='/tips'>Tips</Link> to perfect your resume!
         </p>
-        <p className='mb-0 mt-0 text-[20px] font-semibold leading-[20px]'>
-          Visit <Link href='/tips'>Create</Link> to begin your resume!
+        <p className='mt-0 mb-0 text-[20px] leading-[20px] font-semibold'>
+          Visit <Link href='/tips'>Docs</Link> to begin your resume!
         </p>
       </section>
     </div>

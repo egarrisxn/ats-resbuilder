@@ -9,19 +9,27 @@ export default function manifest() {
     theme_color: '#ffffff',
     icons: [
       {
-        src: '/android-chrome-192x192.png',
+        src: '/web-app-manifest-192x192.png',
         sizes: '192x192',
         type: 'image/png',
+        purpose: 'any',
       },
       {
-        src: '/android-chrome-384x384.png',
-        sizes: '384x384',
+        src: '/web-app-manifest-192x192.png',
+        sizes: '192x192',
         type: 'image/png',
+        purpose: 'maskable',
+      },
+       {
+        src: '/web-app-manifest-512x512.png',
+        type: 'image/png',
+        sizes: '512x512',
+        purpose: 'any',
       },
       {
-        src: '/icon-mask.png',
+        src: '/web-app-manifest-512x512.png',
         type: 'image/png',
-        sizes: '384x384',
+        sizes: '512x512',
         purpose: 'maskable',
       },
     ],

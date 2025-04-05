@@ -1,33 +1,47 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+body {
+  @apply grid min-h-[100dvh] grid-rows-[auto_1fr_auto] bg-slate-50;
+}
 
 main {
-  @apply max-h-full max-w-60 p-2 min-[330px]:max-w-80 min-[400px]:max-w-96 min-[420px]:max-w-full min-[480px]:p-4 md:mx-auto md:max-h-[1123px] md:max-w-[794px] md:rounded md:border md:shadow-md;
+  @apply max-h-full max-w-60 p-2 min-[330px]:max-w-80 min-[400px]:max-w-96 min-[420px]:max-w-full min-[480px]:p-4 md:mx-auto md:max-h-[1123px] md:max-w-[794px] md:rounded-sm md:border md:shadow-md;
 }
 
 h1 {
-  @apply mb-0 mt-0 text-[20px] font-semibold leading-[20px];
+  @apply mt-0 mb-0 text-[20px] leading-[20px] font-semibold;
 }
 
 h2 {
-  @apply my-1 text-[16px] font-medium leading-[16px];
+  @apply my-1 text-[16px] leading-[16px] font-medium;
 }
 
 h3 {
-  @apply mb-1 mt-2 text-[14px] font-semibold leading-[14px];
+  @apply mt-2 mb-1 text-[14px] leading-[14px] font-semibold;
 }
 
 h4 {
-  @apply mb-1 mt-0 text-balance text-[15px] leading-[20px];
+  @apply mt-0 mb-1 text-[15px] leading-[20px] text-balance;
 }
 
 h5 {
-  @apply mx-auto max-w-[800px] text-balance text-[13px] leading-[13px];
+  @apply mx-auto max-w-[800px] text-[13px] leading-[13px] text-balance;
 }
 
 p {
-  @apply mb-0 mt-0.5 overflow-x-clip text-balance text-[13px] leading-[13px];
+  @apply mt-0.5 mb-0 overflow-x-clip text-[13px] leading-[13px] text-balance;
 }
 
 a {
@@ -35,11 +49,11 @@ a {
 }
 
 ul {
-  @apply mb-1.5 mt-0.5 list-inside list-disc text-balance pl-0.5;
+  @apply mt-0.5 mb-1.5 list-inside list-disc pl-0.5 text-balance;
 }
 
 li {
-  @apply mb-0 mt-0.5 text-balance text-[13px] leading-[13px];
+  @apply mt-0.5 mb-0 text-[13px] leading-[13px] text-balance;
 }
 
 /* Firefox */

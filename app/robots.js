@@ -2,9 +2,8 @@ export default function robots() {
   return {
     rules: {
       userAgent: '*',
-      allow: ['/'],
+      allow: '/',
     },
-    sitemap: 'https://ats-resbuilder.vercel.app/sitemap.xml',
-    host: 'https://ats-resbuilder.vercel.app',
+    sitemap: 'https://ats-resbuilder.vercel.app/sitemap.xml'
   }
 }
