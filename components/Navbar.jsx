@@ -6,10 +6,10 @@ export default function Navbar() {
     <nav className='flex flex-row items-center justify-between border-b-2 bg-white px-2 py-4 shadow-xs lg:px-12 lg:py-5'>
       <Link href='/' className='font-black text-black'>
         <div className='flex items-center sm:flex-row sm:gap-1 sm:pl-1'>
-          <Image src='/nav-icon.svg' alt='ATS Rebuilder Logo' width={32} height={32} />
-          <p className='hidden text-[1.40rem] font-extrabold tracking-tighter sm:block'>
+          <Image src='/nav-icon.svg' alt='ATS Rebuilder Logo' width={28} height={28} />
+          <span className='hidden text-[1.40rem] font-black tracking-tighter sm:block'>
             Resbuilder
-          </p>
+          </span>
         </div>
       </Link>
       <div className='flex flex-row gap-1.5 text-sm sm:gap-4 sm:text-base lg:gap-6 lg:text-lg'>

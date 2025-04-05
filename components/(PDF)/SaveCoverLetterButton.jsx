@@ -45,7 +45,7 @@ export default function SaveCoverLetterButton({onGenerate}) {
 
   return (
     <button
-      className='rounded-lg border-2 bg-blue-500 px-6 py-2 uppercase text-white shadow-xl hover:bg-blue-500/90'
+      className='rounded-lg border-2 bg-blue-500 px-6 py-2 text-white uppercase shadow-xl hover:bg-blue-500/90'
       onClick={handleSavePDF}
       disabled={isSaving}
     >

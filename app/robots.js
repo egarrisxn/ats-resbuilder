@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://ats-resbuilder.vercel.app/sitemap.xml'
+    sitemap: 'https://ats-resbuilder.vercel.app/sitemap.xml',
   }
 }

@@ -20,7 +20,7 @@ export default function manifest() {
         type: 'image/png',
         purpose: 'maskable',
       },
-       {
+      {
         src: '/web-app-manifest-512x512.png',
         type: 'image/png',
         sizes: '512x512',

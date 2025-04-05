@@ -43,7 +43,7 @@ export default function ViewCoverLetterButton({onGenerate}) {
 
   return (
     <button
-      className='rounded-lg border-2 bg-green-500 px-6 py-2 uppercase text-white shadow-xl hover:bg-green-500/90'
+      className='rounded-lg border-2 bg-green-500 px-6 py-2 text-white uppercase shadow-xl hover:bg-green-500/90'
       onClick={handleGeneratePDF}
       disabled={isGenerating}
     >
