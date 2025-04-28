@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 import {remark} from 'remark'
 import html from 'remark-html'
 
-export default function Markdown1Resume() {
+export default function MarkdownClientResume() {
   const [content, setContent] = useState('')
 
   useEffect(() => {

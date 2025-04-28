@@ -1,6 +1,27 @@
 @import 'tailwindcss';
 
-@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --animate-test: test 0s ease-out;
+  --animate-fade-in: fadeIn 0.5s ease forwards;
+
+  @keyframes test {
+    from {
+      height: 0;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
 
 @layer base {
   *,
@@ -8,12 +29,12 @@
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+    border-color: var(--color-slate-200, currentcolor);
   }
 }
 
 body {
-  @apply grid min-h-[100dvh] grid-rows-[auto_1fr_auto] bg-slate-50;
+  @apply grid min-h-[100dvh] grid-rows-[auto_1fr_auto] bg-[#fafafa];
 }
 
 main {

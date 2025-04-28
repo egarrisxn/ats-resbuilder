@@ -1,25 +1,10 @@
 'use client'
 import {useEffect, useState} from 'react'
 import {Contact, Summary, Experience, Education, Skills, Projects} from '@/components/sections'
+import Skeleton from '@/components/Skeleton'
 
-export default function APIResume() {
-  const [resumeData, setResumeData] = useState({
-    contact: {
-      name: '',
-      title: '',
-      email: '',
-      phone: '',
-      location: '',
-      website: '',
-      github: '',
-      linkedin: '',
-    },
-    summary: '',
-    experience: [],
-    education: [],
-    skills: [],
-    projects: [],
-  })
+export default function APIClientResume() {
+  const [resumeData, setResumeData] = useState(null)
 
   useEffect(() => {
     async function fetchData() {
@@ -33,6 +18,10 @@ export default function APIResume() {
     }
     fetchData()
   }, [])
+
+  if (!resumeData) {
+    return <Skeleton />
+  }
 
   return (
     <main>

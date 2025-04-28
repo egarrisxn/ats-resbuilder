@@ -36,6 +36,23 @@ export const metadata = {
     creator: '@eg__xo',
     site: '@eg__xo',
   },
+  icons: {
+    icon: {
+      url: '/icon.png',
+      sizes: '192x192',
+      type: 'image/png',
+    },
+    apple: {
+      url: '/apple-icon.png',
+      sizes: '180x180',
+      type: 'image/png',
+    },
+    other: {
+      rel: 'icon',
+      url: '/icon.svg',
+      type: 'image/svg+xml',
+    },
+  },
 }
 
 export default function RootLayout({children}) {

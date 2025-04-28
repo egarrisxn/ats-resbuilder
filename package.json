@@ -1,7 +1,7 @@
 {
   "name": "ats-resbuilder",
   "version": "1.0.0",
-  "description": "ATS Certified Resume Builder",
+  "description": "ATS Certified Resume & Cover Letter Builder.",
   "homepage": "https://ats-resbuilder.vercel.app",
   "author": "Ethan G. (https://egxo.dev)",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "eslint",
     "vercel",
     "resume",
-    "resumebuilder"
+    "coverletter"
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -26,7 +26,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix",
+    "next-lint": "next lint",
+    "lint:fix": "next lint --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write ."
   },
@@ -46,6 +47,7 @@
     "eslint": "^9.24.0",
     "eslint-config-next": "15.2.4",
     "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",

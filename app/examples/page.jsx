@@ -2,44 +2,31 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Examples',
-  description: 'Examples of the many ways we can resume!',
+  description: 'Examples of the many ways we resume!',
 }
 
-export default function ResumesPage() {
+export default function ExamplesPage() {
   return (
-    <div className='my-8 flex w-full max-w-(--breakpoint-2xl) flex-col justify-between gap-8 sm:mx-auto sm:p-4 lg:flex-row lg:gap-12 lg:px-12'>
-      <section className='flex flex-col gap-8 pl-4 lg:mt-16 lg:mb-4 lg:gap-6 lg:pl-16'>
-        <div className='text-3xl font-black sm:text-4xl'>
-          A couple examples
+    <div className='my-16 flex w-full max-w-4xl flex-col justify-between gap-6 sm:mx-auto lg:flex-row xl:max-w-(--breakpoint-2xl)'>
+      <section className='flex flex-col gap-8 p-4 md:p-8 lg:p-6'>
+        <div className='text-3xl font-black sm:pl-1 sm:text-4xl'>
+          Examples of resumes
           <br />
-          on how we resume!
+          <span className='text-slate-500'>&</span> cover letters below!
         </div>
-        <div className='flex flex-col gap-0 text-lg lg:gap-1 lg:text-xl'>
-          <Link className='text-lg lg:text-xl' href='/resume/api'>
-            Dynamic API route
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/json'>
-            Local .json file
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/markdown/1'>
-            Local .md file
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/markdown/2'>
-            Client-side .md file
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/mdx/1'>
-            Server-side .mdx file
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/mdx/2'>
-            Static .mdx file
-          </Link>
-          <Link className='text-lg lg:text-xl' href='/resume/text'>
-            Static .txt file
-          </Link>
+        <div className='flex flex-col text-base lg:gap-y-1 lg:text-lg'>
+          <Link href='/resume/api/client'>API route (client)</Link>
+          <Link href='/resume/api/server'>API route (server)</Link>
+          <Link href='/resume/json/local'>JSON file (local)</Link>
+          <Link href='/resume/markdown/client'>Markdown file (client)</Link>
+          <Link href='/resume/markdown/local'>Markdown file (local)</Link>
+          <Link href='/resume/mdx/server'>MDX file (server)</Link>
+          <Link href='/resume/mdx/static'> MDX file (static)</Link>
+          <Link href='/resume/text/static'>Text file (static)</Link>
         </div>
       </section>
 
-      <section className='flex flex-col items-end justify-end gap-1 pr-4 lg:mt-4 lg:mb-16 lg:pr-16'>
+      <section className='flex flex-col items-end justify-end gap-1 p-4 md:p-8 lg:p-6'>
         <div className='mt-0 mb-0 text-[20px] leading-[20px] font-semibold'>
           Visit <Link href='/tips'>Tips</Link> to perfect your resume!
         </div>

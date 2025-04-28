@@ -1,4 +1,5 @@
 'use client'
+
 export default function Error({error, reset}) {
   return (
     <section className='mx-auto my-8 flex max-w-[40rem] flex-col'>

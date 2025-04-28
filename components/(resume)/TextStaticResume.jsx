@@ -1,4 +1,4 @@
-export default function TextResume() {
+export default function TextStaticResume() {
   return (
     <main>
       <h1>Ethan Garrison (he/him)</h1>

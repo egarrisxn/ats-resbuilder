@@ -1,54 +1,81 @@
 # Resbuilder | ATS Friendly
 
-![resumebuilder](https://github.com/user-attachments/assets/22440a66-6de4-48a9-b504-504a23b3bddd)
+[![resumebuilder](https://github.com/user-attachments/assets/22440a66-6de4-48a9-b504-504a23b3bddd)](https://ats-resbuilder.vercel.app)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/resume-builder) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/resume-builder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/resume-builder)](https://github.com/egarrisxn/resume-builder)
+[![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/resume-builder)](https://github.com/egarrisxn/resume-builder)
 
 ## Overview
 
-**Resbuilder | ATS Friendly** is a simple yet powerful ATS friendly resume builder web application. This project demonstrates multiple ways to generate and save resumes in different formats such as Markdown, MDX, plain text, and JSON. This project also allows you to preview and print a pdf version of your resume. It uses modern web technologies to ensure a seamless and efficient user experience.
+**Resbuilder | ATS Friendly** is a user-friendly web application designed to empower you in creating Applicant Tracking System (ATS) friendly resumes and cover letters. This project showcases innovative methods for generating and saving these crucial documents in various formats, including **Markdown (.md), MDX (.mdx), plain text (.txt), and JSON (.json)**. Furthermore, you can seamlessly **preview and print your resume as a PDF**, ensuring it looks professional before you submit it. Built with modern web technologies, Resbuilder offers a smooth and efficient experience to help you land your dream job.
 
-## Features
+## Key Features
 
-- **Resume Formats:** Supports Markdown, MDX, plain text, and JSON formats.
-- **PDF Generation:** Easily generate and download your resume as a PDF.
-- **Preview Options:** Preview your resume before downloading to ensure everything looks perfect.
-- **Customizable:** Tailor the resume templates to suit your needs.
+- **Versatile Resume & Cover Letter Formats:** Generate and save your documents in Markdown, MDX, plain text, and JSON formats, providing flexibility for different platforms and workflows.
+- **Effortless PDF Generation:** Instantly preview and download your resume or cover letter as a polished PDF document, ready for sharing and applications.
+- **Real-time Preview:** Visualize your resume or cover letter before downloading, guaranteeing that all elements are perfectly aligned and formatted.
+- **Customizable Templates (Future Enhancement):** While currently offering a clean and effective default style, future updates will introduce customizable templates to cater to diverse personal branding needs.
+- **ATS Optimization:** Designed with Applicant Tracking Systems in mind, ensuring your resume's content is easily parsed and understood by recruitment software.
 
-## Technologies
+## Technologies Used
 
-- Next.js
-- React
-- Tailwind CSS
-- JavaScript
-- Markdown/MDX
-- ESLint & Prettier
-- pdf-lib
-- etc.
+This project leverages the following cutting-edge technologies:
 
-## How to Run Locally
+- **Framework:** [Next.js](https://nextjs.org/) - The React framework for production.
+- **UI Library:** [React](https://react.dev/) - A JavaScript library for building user interfaces.
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid styling.
+- **Core Language:** [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - The dynamic language of the web.
+- **Content Formats:** [Markdown](https://www.markdownguide.org/) & [MDX](https://mdxjs.com/) - Powerful ways to write content with React components.
+- **Linting & Formatting:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) - Ensuring code quality and consistency.
+- **PDF Generation Library:** [pdf-lib](https://pdf-lib.js.org/) - A JavaScript library to create and modify PDF documents.
+- **Icon Library:** [lucide-react](https://lucide.dev/) - Beautifully simple icons for your interface.
+- **Content Parsing:** [remark](https://remark.js.org/) & [remark-html](https://github.com/remarkjs/remark-html) - Markdown processor and HTML converter.
+- **Remote MDX:** [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote) - Render MDX from external sources.
 
-1. Clone the repository.
-2. Install dependencies.
-3. Run the development server.
-4. Open your localhost to view it in your browser.
+## Getting Started - Run Locally
+
+Ready to try Resbuilder on your local machine? Follow these simple steps:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/egarrisxn/resume-builder.git](https://github.com/egarrisxn/resume-builder.git)
+    cd resume-builder
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    pnpm install
+    ```
+3.  **Start the Development Server:**
+    ```bash
+    pnpm dev
+    ```
+4.  **Open in Your Browser:** Navigate to `http://localhost:3000` in your web browser to start building!
 
 ## Deployment
 
-The project is deployed on **Vercel**, ensuring seamless deployment and hosting for Next.js applications.
+Resbuilder is proudly hosted on [Vercel](https://vercel.com/), providing a streamlined and efficient deployment process optimized for Next.js applications. You can access the live application at [https://ats-resbuilder.vercel.app](https://ats-resbuilder.vercel.app).
+
+[![Vercel](https://vercel.com/button)](https://ats-resbuilder.vercel.app)
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+We warmly welcome contributions to make Resbuilder even better! If you have ideas for improvements, new features, or have identified any issues, please don't hesitate to:
+
+- **Submit Issues:** Report bugs or suggest enhancements by opening a new issue on our [GitHub repository](https://github.com/egarrisxn/resume-builder/issues).
+- **Submit Pull Requests:** If you've implemented a fix or a new feature, feel free to submit a pull request with a clear description of your changes.
 
 ## Feedback
 
-Your feedback is appreciated! If you have any suggestions, feature requests, or encounter any issues, please open an issue on GitHub.
+Your feedback is invaluable in shaping the future of Resbuilder. If you have any suggestions, feature requests, or encounter any problems while using the application, please open an issue on [GitHub](https://github.com/egarrisxn/resume-builder/issues).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of this open-source license.
 
 ## Contact
 
-If you have any questions, comments, or concerns, feel free to reach out via [GitHub](https://github.com/EGARRISXN) or email at egarrisxn@gmail.com.
+If you have any questions, comments, or concerns, please don't hesitate to reach out through the following channels:
+
+- **GitHub:** [https://github.com/EGARRISXN](https://github.com/egarrisxn)
+- **Email:** egarrisxn@gmail.com

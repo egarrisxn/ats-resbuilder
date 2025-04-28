@@ -1,7 +1,7 @@
 'use client'
 import {useEffect, useState} from 'react'
 
-export default function JSONResume() {
+export default function JSONLocalResume() {
   const [resume, setResume] = useState(null)
 
   useEffect(() => {
