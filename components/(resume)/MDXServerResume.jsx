@@ -13,7 +13,7 @@ export async function MDX1() {
   return {content}
 }
 
-export default async function MDX1Resume({params}) {
+export default async function MDXServerResume({params}) {
   const {content} = await MDX1(params)
 
   return <main>{content}</main>

@@ -4,7 +4,7 @@ export function MDX2(props) {
   return <MDXRemote {...props} components={{}} />
 }
 
-export default function MDX2Resume() {
+export default function MDXStaticResume() {
   return (
     <main>
       <MDX2
