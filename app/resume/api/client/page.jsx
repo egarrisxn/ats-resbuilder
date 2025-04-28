@@ -1,6 +1,4 @@
-import {Suspense} from 'react'
 import APIClientResume from '@/components/(resume)/APIClientResume'
-import Skeleton from '@/components/Skeleton'
 
 export default function APIClientPage() {
   return (
@@ -11,9 +9,7 @@ export default function APIClientPage() {
         with fetched data, and renders the sections.
       </h2>
       <div className='mx-auto mt-2 mb-4 size-fit rounded-lg bg-white shadow-lg'>
-        <Suspense fallback={<Skeleton />}>
-          <APIClientResume />
-        </Suspense>
+        <APIClientResume />
       </div>
     </>
   )
