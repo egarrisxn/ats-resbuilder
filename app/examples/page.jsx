@@ -19,7 +19,7 @@ export default function ExamplesPage() {
           <Link href='/resume/api/server'>API route (server)</Link>
           <Link href='/resume/json/local'>JSON file (local)</Link>
           <Link href='/resume/markdown/client'>Markdown file (client)</Link>
-          <Link href='/resume/markdown/local'>Markdown file (local)</Link>
+          <Link href='/resume/markdown/server'>Markdown file (server)</Link>
           <Link href='/resume/mdx/server'>MDX file (server)</Link>
           <Link href='/resume/mdx/static'> MDX file (static)</Link>
           <Link href='/resume/text/static'>Text file (static)</Link>

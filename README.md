@@ -52,6 +52,25 @@ Ready to try Resbuilder on your local machine? Follow these simple steps:
     ```
 4.  **Open in Your Browser:** Navigate to `http://localhost:3000` in your web browser to start building!
 
+## Help Navigating the Application
+
+This section explains the different resume components and how they interact with data sources. Each component is responsible for fetching and rendering resume data in various formats.
+
+| **Name**               | **Data Source**                          | **Parse/Fetch Location** | **Render Type**       | **Notes**                                  |
+| :--------------------- | :--------------------------------------- | :----------------------- | :-------------------- | :----------------------------------------- |
+| `APIClientResume`      | API endpoint (`/api/resume-data`)        | Client                   | Dynamic client render | Uses fetch on the client after load.       |
+| `APIServerResume`      | API endpoint (`/api/resume-data`)        | Server                   | Dynamic server render | Fetched server-side, hydrated client-side. |
+| `JSONLocalResume`      | Static JSON file (`/public/resume.json`) | Client                   | Dynamic client render | Fetches local public file client-side.     |
+| `MarkdownClientResume` | Static Markdown (`/public/resume.md`)    | Client                   | Dynamic client render | Fetch + `remark` on the client.            |
+| `MarkdownServerResume` | Markdown file (`/app/data/resume.md`)    | Server                   | Dynamic server render | Read file + `remark` server-side.          |
+| `MDXServerResume`      | MDX file (`/app/data/resume.mdx`)        | Server                   | Dynamic server render | Read + compile MDX server-side.            |
+| `MDXStaticResume`      | Hardcoded MDX string (in code)           | Server                   | Static server render  | Static JSX output via `next-mdx-remote`.   |
+| `TextStaticResume`     | Hardcoded text content (in code)         | Server                   | Static server render  | No MD/MDX parsing, just JSX sections.      |
+
+### How This Helps
+
+Understanding these components allows you to easily find and work with the data sources, whether you need to fetch content dynamically or display static content. Each render type ensures that content is displayed as expected while balancing performance with flexibility.
+
 ## Deployment
 
 Resbuilder is proudly hosted on [Vercel](https://vercel.com/), providing a streamlined and efficient deployment process optimized for Next.js applications. You can access the live application at [https://ats-resbuilder.vercel.app](https://ats-resbuilder.vercel.app).

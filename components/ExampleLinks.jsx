@@ -7,7 +7,7 @@ export default function ExampleLinks() {
       <Link href='/resume/api/server'>api/(server)</Link>
       <Link href='/resume/json/local'>.json(local)</Link>
       <Link href='/resume/markdown/client'>.md(client)</Link>
-      <Link href='/resume/markdown/local'>.md(local)</Link>
+      <Link href='/resume/markdown/server'>.md(server)</Link>
       <Link href='/resume/mdx/server'>.mdx(server)</Link>
       <Link href='/resume/mdx/static'>.mdx(static)</Link>
       <Link href='/resume/text/static'>.txt(static)</Link>

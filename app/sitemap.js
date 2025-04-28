@@ -73,7 +73,7 @@ export default function sitemap() {
       priority: 0.5,
     },
     {
-      url: 'https://ats-resbuilder.vercel.app/resume/markdown/local',
+      url: 'https://ats-resbuilder.vercel.app/resume/markdown/client',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,

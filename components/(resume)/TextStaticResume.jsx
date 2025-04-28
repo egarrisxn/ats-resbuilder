@@ -1,6 +1,6 @@
 export default function TextStaticResume() {
   return (
-    <main>
+    <main className='animate-fade-in opacity-0'>
       <h1>Ethan Garrison (he/him)</h1>
       <h2>Full Stack Developer</h2>
       <p>

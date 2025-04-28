@@ -1,5 +1,6 @@
 'use client'
 import {useEffect, useState} from 'react'
+import ResumeSkeleton from '@/components/ResumeSkeleton'
 
 export default function JSONLocalResume() {
   const [resume, setResume] = useState(null)
@@ -10,10 +11,10 @@ export default function JSONLocalResume() {
       .then((data) => setResume(data))
   }, [])
 
-  if (!resume) return <div>Loading...</div>
+  if (!resume) return <ResumeSkeleton />
 
   return (
-    <main>
+    <main className='animate-fade-in opacity-0'>
       <h1>
         {resume.contact.name} {resume.contact.pronouns}
       </h1>

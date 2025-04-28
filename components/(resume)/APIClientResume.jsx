@@ -1,7 +1,7 @@
 'use client'
 import {useEffect, useState} from 'react'
 import {Contact, Summary, Experience, Education, Skills, Projects} from '@/components/sections'
-import Skeleton from '@/components/Skeleton'
+import ResumeSkeleton from '@/components/ResumeSkeleton'
 
 export default function APIClientResume() {
   const [resumeData, setResumeData] = useState(null)
@@ -20,11 +20,11 @@ export default function APIClientResume() {
   }, [])
 
   if (!resumeData) {
-    return <Skeleton />
+    return <ResumeSkeleton />
   }
 
   return (
-    <main>
+    <main className='animate-fade-in opacity-0'>
       <Contact data={resumeData.contact} />
       <Summary data={resumeData.summary} />
       <Experience data={resumeData.experience} />

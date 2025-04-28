@@ -1,20 +1,7 @@
-import {compileMDX} from 'next-mdx-remote/rsc'
-import fs from 'fs'
-import path from 'path'
-
-export async function MDX1() {
-  const filePath = path.join(process.cwd(), 'app', 'data', 'resume.mdx')
-  const fileContent = fs.readFileSync(filePath, {encoding: 'utf8'})
-
-  const {content} = await compileMDX({
-    source: fileContent,
-  })
-
-  return {content}
-}
+import {getMDXResume} from '@/lib/getMDXResume'
 
 export default async function MDXServerResume({params}) {
-  const {content} = await MDX1(params)
+  const {content} = await getMDXResume(params)
 
-  return <main>{content}</main>
+  return <main className='animate-fade-in opacity-0'>{content}</main>
 }

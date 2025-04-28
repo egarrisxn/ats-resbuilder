@@ -1,13 +1,13 @@
 import {MDXRemote} from 'next-mdx-remote/rsc'
 
-export function MDX2(props) {
+export function MDXStatic(props) {
   return <MDXRemote {...props} components={{}} />
 }
 
 export default function MDXStaticResume() {
   return (
-    <main>
-      <MDX2
+    <main className='animate-fade-in opacity-0'>
+      <MDXStatic
         source={`
 # Ethan Garrison (he/him)
 
