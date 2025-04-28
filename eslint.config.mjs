@@ -11,11 +11,11 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.config({
-    extends: ['next', 'prettier'],
+    extends: ['next/core-web-vitals', 'prettier'],
     rules: {},
   }),
   {
-    ignores: ['**/node_modules/', '.git/', '.next/'],
+    ignores: ['**/node_modules/', '.git/', '.vscode/', '.next/', 'public/'],
   },
 ]
 
