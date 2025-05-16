@@ -1,3 +1,14 @@
+import {MDXRemote} from 'next-mdx-remote/rsc'
+
+export function MDXStatic(props) {
+  return <MDXRemote {...props} components={{}} />
+}
+
+export default function MDXStaticResume() {
+  return (
+    <main className='animate-fade-in opacity-0'>
+      <MDXStatic
+        source={`
 # Riley Morgan (they/them)
 
 ## Full Stack Developer
@@ -84,3 +95,8 @@ Florida Atlantic University, Boca Raton, Florida, United States
 **FocusNode | [https://github.com/rileymdev/focusnode](https://github.com/rileymdev/focusnode)**
 
 - Engineered a type-safe task management app using modern tools and practices for high productivity.
+          `}
+      />
+    </main>
+  )
+}

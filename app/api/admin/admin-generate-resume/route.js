@@ -42,24 +42,24 @@ export async function POST(req) {
 
     //! Define header keywords to identify header lines
     const headerKeywords = {
-      'Riley Morgan': h1,
+      'Ethan Garrison': h1,
       'Full Stack Developer': h2,
       Summary: h2,
       Experience: h2,
       'Full Stack Developer | June 2023 - Present': h3,
-      'Sales Lead | Aug 2021 - Jan 2023': h3,
-      'Sales Supervisor | Dec 2019 - Aug 2021': h3,
-      'Assistant Manager | Nov 2017 - Dec 2019': h3,
-      'Client Manager | Oct 2014 - Nov 2017': h3,
+      'Regional Account Manager | Aug 2021 - Jan 2023': h3,
+      'Sales Manager | Dec 2019 - Aug 2021': h3,
+      'Assistant General Manager | Nov 2017 - Dec 2019': h3,
+      'Account Manager | Oct 2014 - Nov 2017': h3,
       Education: h2,
-      'Certification - Full Stack Web Development Boot Camp | 2023': h3,
-      'Studied - Business Administration | 2008 - 2009': h3,
+      'Certification - Full Stack Development Boot Camp | 2023': h3,
+      'Studied - Business Management | 2008 - 2009': h3,
       Skills: h2,
       Projects: h2,
-      'Loop Lane | https://github.com/rileymdev/looplane': h3,
-      'AltWear | https://github.com/rileymdev/altwear': h3,
-      'DevHues | https://github.com/rileymdev/devhues': h3,
-      'FocusNode | https://github.com/rileymdev/focusnode': h3,
+      'Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial': h3,
+      'Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise': h3,
+      'n00b:dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev': h3,
+      'xprod | https://github.com/egarrisxn/xprod': h3,
     }
 
     //! Loop through the content lines
@@ -77,7 +77,7 @@ export async function POST(req) {
       const currentFontSize = isHeader ? headerKeywords[trimmedLine] || h3 : p
 
       const textColor =
-        trimmedLine === 'Riley Morgan'
+        trimmedLine === 'Ethan Garrison'
           ? rgb(0.039, 0.58, 0.98) //? Blue for the largest header
           : rgb(0, 0, 0) //? Black for all other text
 
@@ -146,7 +146,7 @@ export async function POST(req) {
       }
 
       //! Add extra space after the h1 (name)
-      if (trimmedLine === 'Riley Morgan') {
+      if (trimmedLine === 'Ethan Garrison') {
         yPosition -= 0.25 * lineHeight
       }
 
@@ -163,7 +163,7 @@ export async function POST(req) {
     return new Response(new Uint8Array(pdfBytes), {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'attachment; filename="resume.pdf"',
+        'Content-Disposition': 'attachment; filename="admin-resume.pdf"',
       },
     })
   } catch (error) {

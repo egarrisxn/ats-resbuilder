@@ -1,63 +1,63 @@
-# Ethan Garrison (he/him)
+# Riley Morgan (they/them)
 
 ## Full Stack Developer
 
-Orlando, Florida, United States | [+15802844513](tel:+15802844513) | [Egarrisxn@gmail.com](mailto:egarrisxn@gmail.com)
+Tampa, Florida, United States | [+14071234567](tel:+14071234567) | [rileym.dev@gmail.com](mailto:rileym.dev@gmail.com)
 
-[https://egxo.dev](https://egxo.dev) | [https://github.com/egarrisxn](https://github.com/egarrisxn) | [https://linkedin.com/in/ethan-gx](https://linkedin.com/in/ethan-gx)
+[https://rileym.dev](https://rileym.dev) | [https://github.com/rileymdev](https://github.com/rileymdev) | [https://linkedin.com/in/riley-mx](https://linkedin.com/in/riley-mx)
 
 ### Summary
 
-Versatile Full Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
+Adaptable Full Stack Developer with a background in team leadership, currently focused on front-end engineering and server-side logic. Experienced in building responsive, accessible UIs, managing scalable databases, and integrating APIs. Embraces Agile workflows to deliver efficient and maintainable web applications that meet user and business goals.
 
 ### Work Experience
 
-Full Stack Developer
+**Full Stack Developer | June 2023 - Present**
 
-_June 2023 - Present_ | Freelance, Orlando, Florida, United States
+Freelance, Tampa, Florida, United States
 
-- Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.
-- Implement responsive, accessible design principles for exceptional user experience and standards compliance.
+- Build and maintain dynamic web apps using tools like React, Tailwind CSS, and Express.js.
+- Ensure mobile-friendly and accessible designs that meet performance benchmarks and user needs.
 
-Regional Account Manager
+**Sales Lead | Aug 2021 - Jan 2023**
 
-_Aug 2021 - Jan 2023_ | Roughtail Brewing Company, Edmond, Oklahoma, United States
+Sunspire Beverages, St. Petersburg, Florida, United States
 
-- Resolved escalations and nurtured distributor relationships to strengthen business partnerships.
-- Delivered a 20% increase in regional sales by implementing data-driven marketing strategies.
+- Handled client concerns and boosted partner engagement to secure long-term contracts.
+- Improved territory revenue by 20% through targeted campaigns and relationship management.
 
-Sales Manager
+**Sales Supervisor | Dec 2019 - Aug 2021**
 
-_Dec 2019 - Aug 2021_ | Armadillo Ale Works, Denton, Texas, United States
+Copper Tap Co., Gainesville, Florida, United States
 
-- Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.
-- Facilitated collaboration across sales, production, and marketing teams to streamline operations.
+- Drove a 25% rise in quarterly sales by expanding into new markets and initiating branding efforts.
+- Coordinated efforts across marketing and logistics teams to streamline delivery operations.
 
-Assistant General Manager
+**Assistant Manager | Nov 2017 - Dec 2019**
 
-_Nov 2017 - Dec 2019_ | Northside Drafthouse, Richardson, Texas, United States
+Oakwood Brewery, Tallahassee, Florida, United States
 
-- Streamlined operations and reduced costs while maintaining exceptional service standards.
-- Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.
+- Cut overhead expenses without compromising quality or service metrics.
+- Led a team of 15+, promoting accountability and enhancing team performance.
 
-Account Manager
+**Client Manager | Oct 2014 - Nov 2017**
 
-_Oct 2014 - Nov 2017_ | FullClip Craft Distributors, Dallas, Texas, United States
+Southpoint Distributors, Jacksonville, Florida, United States
 
-- Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.
-- Proactively educated clients on new products, leading to a higher satisfaction and retention rate.
+- Supported key accounts with personalized service, ensuring quick issue resolution.
+- Trained clients on new product offerings, increasing adoption and loyalty.
 
 ### Education & Certifications
 
-**Certification** - Full Stack Development Boot Camp | _Mar 2023 - June 2023_
+**Certification - Full Stack Web Development Boot Camp | Mar 2023 - June 2023**
 
-University of Central Florida, Orlando, Florida, United States
+University of South Florida, Tampa, Florida, United States
 
-_Credentials: https://badgr.com/public/assertions/zGk2wldtSXqeMhEOz2wX5Q_
+_Credentials: https://badgr.com/public/assertions/xyZ3lmfQsPovNdJP3zv7YA_
 
-**Studied** - Business Management | _Aug 2008 - Dec 2009_
+**Studied - Business Administration | Aug 2008 - Dec 2009**
 
-University of Central Oklahoma, Edmond, Oklahoma, United States
+Florida Atlantic University, Boca Raton, Florida, United States
 
 ### Technical Skills
 
@@ -69,18 +69,18 @@ University of Central Oklahoma, Edmond, Oklahoma, United States
 
 ### Projects
 
-Sway Bae Official | [https://github.com/egarrisxn/swaybaeofficial](https://github.com/egarrisxn/swaybaeofficial)
+**Loop Lane | [https://github.com/rileymdev/looplane](https://github.com/rileymdev/looplane)**
 
-- Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.
+- Built a responsive portfolio and blog site integrated with a CMS for simple content updates.
 
-Unofficial Merchandise | [https://github.com/egarrisxn/unofficial-merchandise](https://github.com/egarrisxn/unofficial-merchandise)
+**AltWear | [https://github.com/rileymdev/altwear](https://github.com/rileymdev/altwear)**
 
-- Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
+- Designed and implemented an e-commerce platform with cart functionality and modern UI principles.
 
-n00b:dev - Tips & Tricks for Developers | [https://github.com/egarrisxn/n00bdev](https://github.com/egarrisxn/n00bdev)
+**DevHues | [https://github.com/rileymdev/devhues](https://github.com/rileymdev/devhues)**
 
-- Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
+- Created a performance-focused developer blog featuring SSR and syntax-highlighted articles.
 
-xprod | [https://github.com/egarrisxn/xprod](https://github.com/egarrisxn/xprod)
+**FocusNode | [https://github.com/rileymdev/focusnode](https://github.com/rileymdev/focusnode)**
 
-- Designed a type-safe productivity web application, leveraging modern frameworks for enhanced functionality.
+- Engineered a type-safe task management app using modern tools and practices for high productivity.

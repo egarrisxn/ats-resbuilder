@@ -1,83 +1,83 @@
 {
   "contact": {
-    "name": "Ethan Garrison",
-    "pronouns": "(he/him)",
+    "name": "Riley Morgan",
+    "pronouns": "(they/them)",
     "title": "Full Stack Developer",
-    "location": "Orlando, Florida, United States",
-    "phone": "+15802844513",
-    "email": "Egarrisxn@gmail.com",
-    "website": "https://egxo.dev",
-    "github": "https://github.com/egarrisxn",
-    "linkedin": "https://linkedin.com/in/ethan-gx"
+    "location": "Tampa, Florida, United States",
+    "phone": "+14071234567",
+    "email": "rileym.dev@gmail.com",
+    "website": "https://rileym.dev",
+    "github": "https://github.com/rileymdev",
+    "linkedin": "https://linkedin.com/in/riley-mx"
   },
-  "summary": "Versatile Full Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.",
+  "summary": "Adaptable Full Stack Developer with a background in team leadership, currently focused on front-end engineering and server-side logic. Experienced in building responsive, accessible UIs, managing scalable databases, and integrating APIs. Embraces Agile workflows to deliver efficient and maintainable web applications that meet user and business goals.",
   "experience": [
     {
       "position": "Full Stack Developer",
       "dates": "June 2023 - Present",
       "company": "Freelance",
-      "location": "Orlando, Florida, United States",
+      "location": "Tampa, Florida, United States",
       "responsibilities": [
-        "Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.",
-        "Implement responsive, accessible design principles for exceptional user experience and standards compliance."
+        "Build and maintain dynamic web apps using tools like React, Tailwind CSS, and Express.js.",
+        "Ensure mobile-friendly and accessible designs that meet performance benchmarks and user needs."
       ]
     },
     {
-      "position": "Regional Account Manager",
+      "position": "Sales Lead",
       "dates": "Aug 2021 - Jan 2023",
-      "company": "Roughtail Brewing Company",
-      "location": "Edmond, Oklahoma, United States",
+      "company": "Sunspire Beverages",
+      "location": "St. Petersburg, Florida, United States",
       "responsibilities": [
-        "Resolved escalations and nurtured distributor relationships to strengthen business partnerships.",
-        "Delivered a 20% increase in regional sales by implementing data-driven marketing strategies."
+        "Handled client concerns and boosted partner engagement to secure long-term contracts.",
+        "Improved territory revenue by 20% through targeted campaigns and relationship management."
       ]
     },
     {
-      "position": "Sales Manager",
+      "position": "Sales Supervisor",
       "dates": "Dec 2019 - Aug 2021",
-      "company": "Armadillo Ale Works",
-      "location": "Denton, Texas, United States",
+      "company": "Copper Tap Co.",
+      "location": "Gainesville, Florida, United States",
       "responsibilities": [
-        "Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.",
-        "Facilitated collaboration across sales, production, and marketing teams to streamline operations."
+        "Drove a 25% rise in quarterly sales by expanding into new markets and initiating branding efforts.",
+        "Coordinated efforts across marketing and logistics teams to streamline delivery operations."
       ]
     },
     {
-      "position": "Assistant General Manager",
+      "position": "Assistant Manager",
       "dates": "Nov 2017 - Dec 2019",
-      "company": "Northside Drafthouse",
-      "location": "Richardson, Texas, United States",
+      "company": "Oakwood Brewery",
+      "location": "Tallahassee, Florida, United States",
       "responsibilities": [
-        "Streamlined operations and reduced costs while maintaining exceptional service standards.",
-        "Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement."
+        "Cut overhead expenses without compromising quality or service metrics.",
+        "Led a team of 15+, promoting accountability and enhancing team performance."
       ]
     },
     {
-      "position": "Account Manager",
+      "position": "Client Manager",
       "dates": "Oct 2014 - Nov 2017",
-      "company": "FullClip Craft Distributors",
-      "location": "Dallas, Texas, United States",
+      "company": "Southpoint Distributors",
+      "location": "Jacksonville, Florida, United States",
       "responsibilities": [
-        "Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.",
-        "Proactively educated clients on new products, leading to a higher satisfaction and retention rate."
+        "Supported key accounts with personalized service, ensuring quick issue resolution.",
+        "Trained clients on new product offerings, increasing adoption and loyalty."
       ]
     }
   ],
   "education": [
     {
       "degree": "Certification",
-      "field_of_study": "Full Stack Development Boot Camp",
+      "field_of_study": "Full Stack Web Development Boot Camp",
       "dates": "Mar 2023 - June 2023",
-      "institution": "University of Central Florida",
-      "location": "Orlando, Florida, United States",
-      "summary": "Credentials: https://badgr.com/public/assertions/zGk2wldtSXqeMhEOz2wX5Q"
+      "institution": "University of South Florida",
+      "location": "Tampa, Florida, United States",
+      "summary": "Credentials: https://badgr.com/public/assertions/xyZ3lmfQsPovNdJP3zv7YA"
     },
     {
       "degree": "Studied",
-      "field_of_study": "Business Management",
+      "field_of_study": "Business Administration",
       "dates": "Aug 2008 - Dec 2009",
-      "institution": "University of Central Oklahoma",
-      "location": "Edmond, Oklahoma, United States",
+      "institution": "Florida Atlantic University",
+      "location": "Boca Raton, Florida, United States",
       "summary": ""
     }
   ],
@@ -90,31 +90,31 @@
   ],
   "projects": [
     {
-      "name": "Sway Bae Official",
-      "github": "https://github.com/egarrisxn/swaybaeofficial",
+      "name": "Loop Lane",
+      "github": "https://github.com/rileymdev/looplane",
       "description": [
-        "Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management."
+        "Built a responsive portfolio and blog site integrated with a CMS for simple content updates."
       ]
     },
     {
-      "name": "Unofficial Merchandise",
-      "github": "https://github.com/egarrisxn/unofficial-merchandise",
+      "name": "AltWear",
+      "github": "https://github.com/rileymdev/altwear",
       "description": [
-        "Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential."
+        "Designed and implemented an e-commerce platform with cart functionality and modern UI principles."
       ]
     },
     {
-      "name": "n00b:dev - Tips & Tricks for Developers",
-      "github": "https://github.com/egarrisxn/n00bdev",
+      "name": "DevHues",
+      "github": "https://github.com/rileymdev/devhues",
       "description": [
-        "Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance."
+        "Created a performance-focused developer blog featuring SSR and syntax-highlighted articles."
       ]
     },
     {
-      "name": "xprod",
-      "github": "https://github.com/egarrisxn/xprod",
+      "name": "FocusNode",
+      "github": "https://github.com/rileymdev/focusnode",
       "description": [
-        "Designed a type-safe productivity web application, leveraging modern frameworks for enhanced functionality."
+        "Engineered a type-safe task management app using modern tools and practices for high productivity."
       ]
     }
   ]

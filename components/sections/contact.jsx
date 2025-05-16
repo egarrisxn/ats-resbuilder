@@ -8,10 +8,21 @@ export function Contact({data}) {
       </h1>
       <h2>{data.title}</h2>
       <p>
-        {data.location} | {data.phone} | {data.email}
+        {data.location} | <a href={`tel:${data.phone}`}>{data.phone}</a> |{' '}
+        <a href={`mailto:${data.email}`}>{data.email}</a>{' '}
       </p>
       <p>
-        {data.website} | {data.github} | {data.linkedin}
+        <a href={`https://${data.website}`} target='_blank'>
+          {data.website}
+        </a>{' '}
+        |{' '}
+        <a href={`https://${data.github}`} target='_blank'>
+          {data.github}
+        </a>{' '}
+        |{' '}
+        <a href={`https://${data.linkedin}`} target='_blank'>
+          {data.linkedin}
+        </a>
       </p>
     </section>
   )

@@ -9,8 +9,11 @@ export function Projects({data}) {
       ) : (
         data.map((project, index) => (
           <div key={index}>
-            <p>
-              {project.name} | {project.github}
+            <p className='font-bold'>
+              {project.name} |{' '}
+              <a href={`https://${project.github}`} target='_blank'>
+                {project.github}
+              </a>
             </p>
             <ul>
               {project.description.map((desc, idx) => (

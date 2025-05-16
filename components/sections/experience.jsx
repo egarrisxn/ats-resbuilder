@@ -9,9 +9,11 @@ export function Experience({data}) {
       ) : (
         data.map((job, index) => (
           <div key={index}>
-            <p>{job.position}</p>
+            <p className='font-bold'>
+              {job.position} | <span className='italic'>{job.dates}</span>
+            </p>
             <p>
-              <span className='italic'>{job.dates}</span> | {job.company}, {job.location}
+              {job.company}, {job.location}
             </p>
             <ul>
               {job.responsibilities?.map((resp, idx) => (

@@ -31,6 +31,12 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: 'https://ats-resbuilder.vercel.app/admin',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+    {
       url: 'https://ats-resbuilder.vercel.app/resume/api/client',
       lastModified: new Date(),
       changeFrequency: 'yearly',
@@ -55,7 +61,7 @@ export default function sitemap() {
       priority: 0.5,
     },
     {
-      url: 'https://ats-resbuilder.vercel.app/mdx/server',
+      url: 'https://ats-resbuilder.vercel.app/resume/mdx/server',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,

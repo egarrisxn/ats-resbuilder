@@ -1,7 +1,5 @@
 import './globals.css'
 import {Roboto} from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -58,11 +56,7 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang='en'>
-      <body className={`${roboto.className}`}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <body className={`${roboto.className}`}>{children}</body>
     </html>
   )
 }

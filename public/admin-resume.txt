@@ -1,0 +1,71 @@
+Ethan Garrison
+Full Stack Developer
+Orlando, Florida | +15802844513 | Egarrisxn@gmail.com
+https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarrisxn
+
+
+Summary
+
+Versatile Full Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives.
+
+
+Experience
+
+Full Stack Developer | June 2023 - Present
+Freelance, Orlando, Florida
+- Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.
+- Implement responsive, accessible design principles for exceptional user experience and standards compliance.
+
+Regional Account Manager | Aug 2021 - Jan 2023
+Roughtail Brewing Company, Edmond, Oklahoma
+- Resolved escalations and nurtured distributor relationships to strengthen business partnerships.
+- Delivered a 20% increase in regional sales by implementing data-driven marketing strategies.
+
+Sales Manager | Dec 2019 - Aug 2021
+Armadillo Ale Works, Denton, Texas
+- Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.
+- Facilitated collaboration across sales, production, and marketing teams to streamline operations.
+
+Assistant General Manager | Nov 2017 - Dec 2019
+Northside Drafthouse, Richardson, Texas
+- Streamlined operations and reduced costs while maintaining exceptional service standards.
+- Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.
+
+Account Manager | Oct 2014 - Nov 2017
+FullClip Craft Distributors, Dallas, Texas
+- Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.
+- Proactively educated clients on new products, leading to a higher satisfaction and retention rate.
+
+
+Education
+
+Certification - Full Stack Development Boot Camp | 2023
+University of Central Florida, Orlando, Florida
+Credentials: https://badgr.com/public/assertions/zGk2wldtSXqeMhEOz2wX5Q
+
+Studied - Business Management | 2008 - 2009
+University of Central Oklahoma, Edmond, Oklahoma
+
+
+Skills
+
+- Front-End Development: HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS, UX/UI Design
+- Back-End Development: Node.js, Express.js, Hono, REST APIs, SQL(MySQL), NoSQL(MongoDB), PostgreSQL
+- DevOps/Tools: Version Control, API Integration, Git, Webpack, Vite, Pnpm, ESlint, Jest, Sanity CMS
+- Best Practices & Methodologies: Agile, Continuous Integration & Deployment, Performance and SEO Optimization
+- Soft Skills: Project Management, Communication, Adaptability, Time Management, Team Collaboration
+
+
+Projects
+
+Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial
+- Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management.
+
+Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise
+- Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
+
+n00b:dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev
+- Developed a server-side rendered blog, focusing on delivering insightful content with optimal performance.
+
+xprod | https://github.com/egarrisxn/xprod
+- Designed a type-safe productivity web application, leveraging modern frameworks for enhanced functionality.

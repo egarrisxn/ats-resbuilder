@@ -9,9 +9,8 @@ export function Education({data}) {
       ) : (
         data.map((edu, index) => (
           <div key={index}>
-            <p>
-              <span className='font-bold'>{edu.degree}</span> - {edu.field_of_study} |{' '}
-              <span className='italic'>{edu.dates}</span>
+            <p className='font-bold'>
+              {edu.degree} - {edu.field_of_study} | {edu.dates}
             </p>
             <p>
               {edu.institution}, {edu.location}
