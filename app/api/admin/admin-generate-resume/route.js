@@ -10,11 +10,11 @@ export async function POST(req) {
 
     //! Define page size
     //? US Letter format
-    const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
-    const pageHeight = 11 * 72 // 792 points (11 inches)
+    // const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
+    // const pageHeight = 11 * 72 // 792 points (11 inches)
     //? A4 format
-    // const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
-    // const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
+    const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
+    const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
 
     //! Add a page with the desired size
     const page = pdfDoc.addPage([pageWidth, pageHeight])
@@ -56,10 +56,10 @@ export async function POST(req) {
       'Studied - Business Management | 2008 - 2009': h3,
       Skills: h2,
       Projects: h2,
+      'Quik|Res | https://github.com/egarrisxn/quikres': h3,
+      'ManyLinks | https://github.com/egarrisxn/manylinks': h3,
       'Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial': h3,
       'Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise': h3,
-      'n00b:dev - Tips & Tricks for Developers | https://github.com/egarrisxn/n00bdev': h3,
-      'xprod | https://github.com/egarrisxn/xprod': h3,
     }
 
     //! Loop through the content lines
@@ -147,7 +147,7 @@ export async function POST(req) {
 
       //! Add extra space after the h1 (name)
       if (trimmedLine === 'Ethan Garrison') {
-        yPosition -= 0.25 * lineHeight
+        yPosition -= 0.3 * lineHeight
       }
 
       //! Apply paragraph spacing after empty lines
