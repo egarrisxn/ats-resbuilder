@@ -10,11 +10,11 @@ export async function POST(req) {
 
     //! Define page size
     //? US Letter format
-    // const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
-    // const pageHeight = 11 * 72 // 792 points (11 inches)
+    const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
+    const pageHeight = 11 * 72 // 792 points (11 inches)
     //? A4 format
-    const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
-    const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
+    // const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
+    // const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
 
     //! Add a page with the desired size
     const page = pdfDoc.addPage([pageWidth, pageHeight])

@@ -51,7 +51,7 @@ Skills
 
 - Front-End Development: HTML5/CSS3/JavaScript, TypeScript, React, Next.js, Tailwind CSS, UX/UI Design
 - Back-End Development: Node.js, Express, REST APIs, PostgreSQL, MongoDB, Supabase, Sanity CMS
-- DevOps/Tools: Git, GitHub, Turbopack, Pnpm, ESlint, Prettier, MDX, Vercel, Clerk, Stripe, Canva
+- DevOps/Tools: Git, GitHub, Turbopack, Pnpm, Vite, ESlint, Prettier, MDX, Vercel, Clerk, Stripe, Canva
 - Best Practices & Methodologies: Agile, Continuous Integration & Deployment, SEO & Performance Optimization
 - Soft Skills: Project Management, Communication, Adaptability, Time Management, Team Collaboration
 
