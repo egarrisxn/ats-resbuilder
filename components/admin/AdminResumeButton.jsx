@@ -1,7 +1,7 @@
 'use client'
 import {useState, useEffect} from 'react'
 
-export default function SaveAdminResumeButton({onGenerate}) {
+export default function SaveAdminResumeButton({}) {
   const [content, setContent] = useState('')
   const [isSaving, setIsSaving] = useState(false)
   useEffect(() => {

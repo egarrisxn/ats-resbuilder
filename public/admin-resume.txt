@@ -6,7 +6,7 @@ https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarris
 
 Summary
 
-Full Stack Developer and Digital Product Designer with a background in team leadership and account management. Skilled in building accessible, responsive user interfaces and developing reliable back-end systems. Known for solving real-world problems through thoughtful design, clean code, and seamless API integrations. Experienced in fast-paced environments and dedicated to delivering practical, user-focused solutions.
+Full Stack Developer and Digital Product Designer with a background in team leadership and client-facing roles. Skilled in building accessible, responsive UIs, scalable back-end systems, and seamless API integrations. Known for solving real-world problems through thoughtful design, user-first thinking, and efficient, end-to-end execution in fast-paced environments.
 
 
 Experience
@@ -16,22 +16,22 @@ Freelance, Orlando, Florida
 - Build and ship full-stack web apps using React, Tailwind CSS, Node.js, and modern tooling.
 - Focus on clean, accessible UI design and smooth API integrations for real-world use cases.
 
-Regional Account Manager | Aug 2021 - Jan 2023
-Roughtail Brewing Company, Edmond, Oklahoma
-- Acted as the main point of contact for distributors, resolving issues and ensuring brand consistency.
-- Increased regional sales by 20% through local marketing and relationship management.
+Creative Tech & Event Lead | Jan 2023 - Present
+Sway Bae, Orlando, Florida
+- Oversee scheduling, filming, and in-person logistics to ensure smooth execution at branded events.
+- Design, develop, and maintain website; create digital assets and provide ongoing web and tech support.
 
-Sales Manager | Dec 2019 - Aug 2021
+Regional Account Manager | Mar 2020 - Jan 2023
 Armadillo Ale Works, Denton, Texas
 - Facilitated collaboration across sales, production, and marketing teams to streamline operations.
 - Grew sales by 25% by expanding account reach and launching new product placements.
 
-Assistant General Manager | Nov 2017 - Dec 2019
+Assistant General Manager | May 2018 - Mar 2020
 Northside Drafthouse, Richardson, Texas
 - Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.
 - Streamlined operations and reduced costs while maintaining exceptional service standards.
 
-Account Manager | Oct 2014 - Nov 2017
+Account Manager | Feb 2015 - May 2018
 FullClip Craft Distributors, Dallas, Texas
 - Managed a large book of retail clients, providing tailored support and recommendations.
 - Boosted product visibility and sales through hands-on education and regular check-ins.
@@ -59,13 +59,13 @@ Skills
 Projects
 
 Quik|Res | https://github.com/egarrisxn/quikres
-- Developed an AI-powered resume-to-website generator for creating polished personal sites with ease.
+- Developed an AI-powered resume-to-website generator for effortlessly creating polished personal sites.
 
 ManyLinks | https://github.com/egarrisxn/manylinks
-- Designed a sleek, single-page link aggregator to showcase all your important links in one place.
-
-Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial
-- Built a trendy website optimized for SEO and integrated with a headless CMS to enhance content management.
+- Designed a sleek, single-page link aggregator to showcase all essential links in one place.
 
 Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise
-- Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential.
+- Created a modern e-commerce site with a user-centric design to enhance experience and boost sales potential.
+
+Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial
+- Built a trendy, SEO-optimized website integrated with a headless CMS for streamlined content management.

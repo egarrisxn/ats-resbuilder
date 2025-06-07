@@ -26,40 +26,41 @@ export async function POST(req) {
     let {width, height} = page.getSize()
 
     //! Font Sizes and Spacing
-    const h1 = 19.5 // Font size for the largest header
-    const h2 = 12 // Font size for specific larger headers
-    const h3 = 10.5 // Font size for default headers
+    const h1 = 22.5 // Font size for main header
+    const h2 = 12.5 // Font size for main subheader
+    const h3 = 12 // Font size for section headers
+    const h4 = 11 // Font size for individual headers
     const p = 10.5 // Font size for body text
     const lineHeight = 1.05 * p // Line height for body text
-    const paragraphSpacing = 0.66 * lineHeight // Paragraph spacing
+    const paragraphSpacing = 0.6 * lineHeight // Paragraph spacing
     const bulletSize = p // Bullet point size
     const bulletIndent = 6 // Indent after bullet point
-    const margin = 22 // Margin from page edges
-    const maxLineWidth = width - 2 * margin // Maximum width for text lines
+    const margin = 25 // Margin from page edges
+    const maxLineWidth = width - 4 * margin // Maximum width for text lines
 
     //! Initial y position for text, starting from top margin
-    let yPosition = height - 3.5 * p
+    let yPosition = height - 3.8 * p
 
     //! Define header keywords to identify header lines
     const headerKeywords = {
       'Ethan Garrison': h1,
       'Full Stack Developer': h2,
-      Summary: h2,
-      Experience: h2,
-      'Full Stack Developer | June 2023 - Present': h3,
-      'Regional Account Manager | Aug 2021 - Jan 2023': h3,
-      'Sales Manager | Dec 2019 - Aug 2021': h3,
-      'Assistant General Manager | Nov 2017 - Dec 2019': h3,
-      'Account Manager | Oct 2014 - Nov 2017': h3,
-      Education: h2,
-      'Certification - Full Stack Development Boot Camp | 2023': h3,
-      'Studied - Business Management | 2008 - 2009': h3,
-      Skills: h2,
-      Projects: h2,
-      'Quik|Res | https://github.com/egarrisxn/quikres': h3,
-      'ManyLinks | https://github.com/egarrisxn/manylinks': h3,
-      'Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial': h3,
-      'Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise': h3,
+      Summary: h3,
+      Experience: h3,
+      'Full Stack Developer | June 2023 - Present': h4,
+      'Creative Tech & Event Lead | Jan 2023 - Present': h4,
+      'Regional Account Manager | Mar 2020 - Jan 2023': h4,
+      'Assistant General Manager | May 2018 - Mar 2020': h4,
+      'Account Manager | Feb 2015 - May 2018': h4,
+      Education: h3,
+      'Certification - Full Stack Development Boot Camp | 2023': h4,
+      'Studied - Business Management | 2008 - 2009': h4,
+      Skills: h3,
+      Projects: h3,
+      'Quik|Res | https://github.com/egarrisxn/quikres': h4,
+      'ManyLinks | https://github.com/egarrisxn/manylinks': h4,
+      'Unofficial Merchandise | https://github.com/egarrisxn/unofficial-merchandise': h4,
+      'Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial': h4,
     }
 
     //! Loop through the content lines
@@ -103,7 +104,7 @@ export async function POST(req) {
         })
 
         //! Apply additional line spacing for bullet points
-        yPosition -= 1.03 * lineHeight
+        yPosition -= 1.05 * lineHeight
       } else {
         //! Split the line into chunks that fit the page width
         const words = trimmedLine.split(' ')
@@ -145,9 +146,19 @@ export async function POST(req) {
         }
       }
 
-      //! Add extra space after the h1 (name)
+      //! Add extra space after the h1 (header)
       if (trimmedLine === 'Ethan Garrison') {
+        yPosition -= 0.1 * lineHeight
+      }
+
+      //! Add extra space after the h2 (subheader)
+      if (trimmedLine === 'Full Stack Developer') {
         yPosition -= 0.3 * lineHeight
+      }
+
+      //! Add extra space after the h3 (section header)
+      if ((trimmedLine === 'Summary', 'Experience', 'Education', 'Skills', 'Projects')) {
+        yPosition -= 0.025 * lineHeight
       }
 
       //! Apply paragraph spacing after empty lines
