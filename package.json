@@ -27,9 +27,8 @@
     "start": "next start",
     "lint": "eslint",
     "next-lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "format:fix": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
     "eslint-plugin-react-hooks": "^5.2.0",

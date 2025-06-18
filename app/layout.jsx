@@ -56,6 +56,9 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang='en'>
+      <head>
+        <meta name='apple-mobile-web-app-title' content='egxo.fyi' />
+      </head>
       <body className={`${roboto.className}`}>{children}</body>
     </html>
   )
