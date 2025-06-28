@@ -20,23 +20,23 @@ export async function POST(req) {
     const page = pdfDoc.addPage([pageWidth, pageHeight])
 
     //! Embed fonts
-    const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica)
-    const helveticaBoldFont = await pdfDoc.embedFont(StandardFonts.HelveticaBold)
+    const timesRomanFont = await pdfDoc.embedFont(StandardFonts.TimesRoman)
+    const timesRomanBoldFont = await pdfDoc.embedFont(StandardFonts.TimesRomanBold)
 
     let {width, height} = page.getSize()
 
     //! Font Sizes and Spacing
-    const h1 = 22.5 // Font size for main header
-    const h2 = 12.5 // Font size for main subheader
-    const h3 = 12 // Font size for section headers
+    const h1 = 22 // Font size for main header
+    const h2 = 12 // Font size for main subheader
+    const h3 = 11.5 // Font size for section headers
     const h4 = 11 // Font size for individual headers
     const p = 10.5 // Font size for body text
     const lineHeight = 1.05 * p // Line height for body text
     const paragraphSpacing = 0.6 * lineHeight // Paragraph spacing
     const bulletSize = p // Bullet point size
     const bulletIndent = 6 // Indent after bullet point
-    const margin = 25 // Margin from page edges
-    const maxLineWidth = width - 4 * margin // Maximum width for text lines
+    const margin = 28 // Margin from page edges
+    const maxLineWidth = width - 3.5 * margin // Maximum width for text lines
 
     //! Initial y position for text, starting from top margin
     let yPosition = height - 3.8 * p
@@ -74,7 +74,7 @@ export async function POST(req) {
       const isBulletPoint = trimmedLine.startsWith('-')
 
       //! Determine the font, size, and color
-      const currentFont = isHeader ? helveticaBoldFont : helveticaFont
+      const currentFont = isHeader ? timesRomanBoldFont : timesRomanFont
       const currentFontSize = isHeader ? headerKeywords[trimmedLine] || h3 : p
 
       const textColor =
@@ -88,7 +88,7 @@ export async function POST(req) {
           x: margin,
           y: yPosition,
           size: bulletSize,
-          font: helveticaBoldFont,
+          font: timesRomanBoldFont,
           color: rgb(0.039, 0.58, 0.98),
         })
 
@@ -148,7 +148,7 @@ export async function POST(req) {
 
       //! Add extra space after the h1 (header)
       if (trimmedLine === 'Ethan Garrison') {
-        yPosition -= 0.1 * lineHeight
+        yPosition -= 0.25 * lineHeight
       }
 
       //! Add extra space after the h2 (subheader)
