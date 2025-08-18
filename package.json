@@ -6,19 +6,6 @@
   "author": "Ethan G. (https://egxo.dev)",
   "license": "MIT",
   "private": true,
-  "keywords": [
-    "next",
-    "nextjs",
-    "react",
-    "reactjs",
-    "tailwind",
-    "tailwindcss",
-    "prettier",
-    "eslint",
-    "vercel",
-    "resume",
-    "coverletter"
-  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
@@ -27,8 +14,8 @@
     "start": "next start",
     "lint": "eslint",
     "next-lint": "next lint",
-    "format": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
-    "format:fix": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache"
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,mdx}\" --cache",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
     "eslint-plugin-react-hooks": "^5.2.0",
@@ -61,7 +48,8 @@
     "jsxSingleQuote": true,
     "plugins": [
       "prettier-plugin-tailwindcss"
-    ]
+    ],
+    "tailwindStylesheet": "./app/globals.css"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
