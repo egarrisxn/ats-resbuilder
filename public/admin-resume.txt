@@ -6,7 +6,7 @@ https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarris
 
 Summary
 
-Full Stack Developer and Digital Product Designer with a background in team leadership and client-facing roles. Skilled in building accessible, responsive UIs, scalable back-end systems, and seamless API integrations. Known for solving real-world problems through thoughtful design, user-first thinking, and efficient, end-to-end execution in fast-paced environments.
+Full Stack Developer with experience building accessible, responsive applications and scalable back-end systems using modern frameworks and tools. Skilled at delivering end-to-end solutions, from designing clean user interfaces to deploying maintainable code. Strong background in client-facing and leadership roles that supports clear communication and effective collaboration with teams. Focused on turning real-world needs into production-ready software.
 
 
 Experience
@@ -51,9 +51,9 @@ Skills
 
 - Front-End: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML5, CSS3
 - Back-End: Node.js, Express, MongoDB, PostgreSQL, Supabase, REST APIs
-- DevOps & Tools: Git, Vercel, Stripe, Vite, MDX, Sanity CMS
-- Best Practices: CI/CD, Performance Optimization, SEO, UI Design
-- Soft Skills: Project Management, Leadership, Communication
+- DevOps & Tools: Git, Vite, Vercel, Heroku, Stripe, Clerk, Sanity CMS
+- Best Practices: CI/CD, Performance Optimization, SEO, UX/UI Design
+- Soft Skills: Project Management, Leadership, Teamwork, Communication
 
 
 Projects
