@@ -34,30 +34,13 @@ export const metadata = {
     creator: '@eg__xo',
     site: '@eg__xo',
   },
-  icons: {
-    icon: {
-      url: '/icon.png',
-      sizes: '192x192',
-      type: 'image/png',
-    },
-    apple: {
-      url: '/apple-icon.png',
-      sizes: '180x180',
-      type: 'image/png',
-    },
-    other: {
-      rel: 'icon',
-      url: '/icon.svg',
-      type: 'image/svg+xml',
-    },
-  },
 }
 
 export default function RootLayout({children}) {
   return (
     <html lang='en'>
       <head>
-        <meta name='apple-mobile-web-app-title' content='egxo.fyi' />
+        <meta name='apple-mobile-web-app-title' content='ATS Resbuilder' />
       </head>
       <body className={`${roboto.className}`}>{children}</body>
     </html>

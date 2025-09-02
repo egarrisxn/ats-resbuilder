@@ -1,40 +1,39 @@
 'use client'
 import {useState, useEffect} from 'react'
 
-export default function SaveAdminResumeButton({onGenerate}) {
+export default function SaveAdminCoverLetterButton({onGenerate}) {
   const [content, setContent] = useState('')
   const [isSaving, setIsSaving] = useState(false)
   useEffect(() => {
-    fetch('/api/admin/admin-fetch-resume')
+    fetch('/api/admin/admin-fetch-cover-letter')
       .then((response) => response.json())
       .then((data) => setContent(data.content))
       .catch((error) => console.error('Error fetching text file:', error))
   }, [])
-
   const handleSavePDF = async () => {
     if (!content) return
-
     setIsSaving(true)
     try {
-      const response = await fetch('/api/admin/admin-generate-resume', {
+      const response = await fetch('/api/admin/admin-generate-cover-letter', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({content: content.trim()}),
       })
+
       if (!response.ok) {
-        throw new Error('Failed to save resume')
+        throw new Error('Failed to save admin cover letter')
       }
       const blob = await response.blob()
       const url = URL.createObjectURL(blob)
       const link = document.createElement('a')
       link.href = url
-      link.download = 'admin-resume.pdf'
+      link.download = 'admin-cover-letter.pdf'
       link.click()
       URL.revokeObjectURL(url)
     } catch (error) {
-      console.error('Error saving resume:', error)
+      console.error('Error saving admin cover letter:', error)
     } finally {
       setIsSaving(false)
     }
@@ -45,7 +44,7 @@ export default function SaveAdminResumeButton({onGenerate}) {
       onClick={handleSavePDF}
       disabled={isSaving}
     >
-      {isSaving ? 'Saving...' : 'Save Resume'}
+      {isSaving ? 'Saving...' : 'Save Cover Letter'}
     </button>
   )
 }

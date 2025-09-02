@@ -1,18 +1,23 @@
 'use client'
-import {useState, useEffect} from 'react'
+import {useRouter} from 'next/navigation'
+import {useEffect, useState} from 'react'
 
-export default function SaveAdminCoverLetterButton({onGenerate}) {
+export default function ViewAdminCoverLetterButton({}) {
   const [content, setContent] = useState('')
-  const [isSaving, setIsSaving] = useState(false)
+  const [isGenerating, setIsGenerating] = useState(false)
+  const router = useRouter()
+
   useEffect(() => {
     fetch('/api/admin/admin-fetch-cover-letter')
       .then((response) => response.json())
       .then((data) => setContent(data.content))
       .catch((error) => console.error('Error fetching text file:', error))
   }, [])
-  const handleSavePDF = async () => {
+
+  const handleGeneratePDF = async () => {
     if (!content) return
-    setIsSaving(true)
+
+    setIsGenerating(true)
     try {
       const response = await fetch('/api/admin/admin-generate-cover-letter', {
         method: 'POST',
@@ -23,28 +28,26 @@ export default function SaveAdminCoverLetterButton({onGenerate}) {
       })
 
       if (!response.ok) {
-        throw new Error('Failed to save cover letter')
+        throw new Error('Failed to generate admin cover letter')
       }
+
       const blob = await response.blob()
       const url = URL.createObjectURL(blob)
-      const link = document.createElement('a')
-      link.href = url
-      link.download = 'admin-cover-letter.pdf'
-      link.click()
-      URL.revokeObjectURL(url)
+      router.push(`/pdf/admin-preview?pdfUrl=${encodeURIComponent(url)}`)
     } catch (error) {
-      console.error('Error saving cover letter:', error)
+      console.error('Error generating PDF:', error)
     } finally {
-      setIsSaving(false)
+      setIsGenerating(false)
     }
   }
+
   return (
     <button
-      className='rounded-lg border-2 bg-blue-500 px-6 py-2 text-white uppercase shadow-xl hover:bg-blue-500/90'
-      onClick={handleSavePDF}
-      disabled={isSaving}
+      className='rounded-lg border-2 bg-green-500 px-6 py-2 text-white uppercase shadow-xl hover:bg-green-500/90'
+      onClick={handleGeneratePDF}
+      disabled={isGenerating}
     >
-      {isSaving ? 'Saving...' : 'Save Cover Letter'}
+      {isGenerating ? 'Generating...' : 'View Cover Letter'}
     </button>
   )
 }

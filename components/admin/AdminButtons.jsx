@@ -1,19 +1,28 @@
 'use client'
 import {useState} from 'react'
-import SaveAdminCoverLetterButton from './AdminCoverLetterButton'
-import SaveAdminResumeButton from './AdminResumeButton'
+import ViewAdminResumeButton from './ViewAdminResumeButton'
+import ViewAdminCoverLetterButton from './ViewAdminCoverLetterButton'
+import SaveAdminResumeButton from './SaveAdminResumeButton'
+import SaveAdminCoverLetterButton from './SaveAdminCoverLetterButton'
 
 export default function AdminButtons() {
   // eslint-disable-next-line no-unused-vars
   const [pdfUrl, setPdfUrl] = useState(null)
+
   const handleGenerate = (url) => {
     setPdfUrl(url)
   }
 
   return (
-    <section className='flex flex-col gap-4'>
-      <SaveAdminResumeButton onGenerate={handleGenerate} />
-      <SaveAdminCoverLetterButton onGenerate={handleGenerate} />
-    </section>
+    <div className='flex flex-col gap-4'>
+      <section className='flex flex-col gap-4 sm:flex-row'>
+        <ViewAdminResumeButton onGenerate={handleGenerate} />
+        <ViewAdminCoverLetterButton onGenerate={handleGenerate} />
+      </section>
+      <section className='flex flex-col gap-4 sm:flex-row'>
+        <SaveAdminResumeButton onGenerate={handleGenerate} />
+        <SaveAdminCoverLetterButton onGenerate={handleGenerate} />
+      </section>
+    </div>
   )
 }
