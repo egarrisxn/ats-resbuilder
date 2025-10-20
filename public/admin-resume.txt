@@ -6,7 +6,7 @@ https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarris
 Summary
 Full Stack Developer skilled in building accessible, responsive front-end interfaces and scalable back-end systems. Experienced in delivering end-to-end solutions from UI to deployment, with a background in leadership and client-facing roles that emphasize clear communication, collaboration, and project management.
 
-Experience
+Work Experience
 Full Stack Developer | Freelance, Orlando, FL | Jun 2023 - Present
 - Build and deploy applications using React, enabling clients to launch responsive, accessible products.
 - Integrate APIs and optimize front-end performance, reducing load times and enhancing UX.
@@ -27,12 +27,15 @@ Account Manager | FullClip Craft Distributors, Dallas, TX | Feb 2015 - May 2018
 - Managed and grew a portfolio of clients with tailored product recommendations and hands-on education.
 - Increased product visibility and sales through proactive account support and regular check-ins.
 
-Education
-Full Stack Development Boot Camp | University of Central Florida, Orlando, FL
-2023 | Certification: https://badgr.com/public/assertions/zGk2wldtSXqeMhEOz2wX5Q
+Education & Certifications
+Sanity Certified Content Operator | Remote | 2025
+Certification: https://sanity.io/learn/certification/sanity-certified-content-operator/share/gCYs86GJr
 
-Business Management | University of Central Oklahoma, Edmond, OK
-2008 - 2009 | Coursework in Business Management
+Full Stack Web Development Boot Camp | University of Central Florida, Orlando, FL | 2023
+Certification: https://api.badgr.io/public/assertions/zGk2wldtSXqeMhEOz2wX5Q
+
+Business Management | University of Central Oklahoma, Edmond, OK | 2008 - 2009
+Studied
 
 Skills
 - Front-End: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML5, CSS3
@@ -46,6 +49,3 @@ Quik|Res | https://github.com/egarrisxn/quikres | https://quikres.vercel.app
 
 ManyLinks | https://github.com/egarrisxn/manylinks | https://manylinks.vercel.app
 - Developed a sleek single-page link aggregator with MongoDB, making it easy to showcase essential links.
-
-Sway Bae Official | https://github.com/egarrisxn/swaybaeofficial | https://swaybae.net
-- Created an SEO-optimized website with Sanity CMS, streamlining content management and boosting visibility.
