@@ -5,19 +5,20 @@ https://egxo.dev | https://linkedin.com/in/ethan-gx | https://github.com/egarris
 
 
 
-ExampleTech Solutions Hiring Team
-Austin, Texas
+Twitch Hiring Team
+San Francisco, CA
 
+Dear Twitch Hiring Team,
 
-Dear ExampleTech Solutions Hiring Team,
+My name is Ethan Garrison, and I am writing to express my strong interest in the Software Engineer I position on the Video Platform team at Twitch. As a freelance developer who specializes in building responsive and scalable applications using Node.js, TypeScript, and React, I am eager to apply my expertise in building robust, performant services to the core systems that power the world’s biggest live streaming service.
 
-My name is Ethan Garrison, and I’m excited to apply for the Full Stack Developer position at ExampleTech Solutions. As a freelance developer with experience building responsive and scalable web applications using React, TypeScript, and Node.js, I’m eager to bring my technical expertise and passion for innovation to a company known for pushing the boundaries of modern technology.
+I greatly admire Twitch's dedication to continuously improving the viewer and creator experience. The opportunity to contribute to the Video Platform team, which is critical for delivering the best possible video experience, is an exciting challenge that aligns perfectly with my drive to solve complex, high-impact problems.
 
-I greatly admire Innovatech’s dedication to developing cutting-edge software solutions that enhance user experiences across various industries. The opportunity to contribute to projects that prioritize performance, security, and accessibility motivates me to take on new challenges and grow as a developer in a dynamic team environment.
+My experience aligns well with the requirements for this role, particularly the emphasis on back-end development. My previous work has given me a proven ability with data modeling, schema design, and API integration. While working independently, I have consistently focused on performance optimization and database management within my solutions. My skills in Node.js provide a strong foundation for building and maintaining the services required for your platform, and my familiarity with languages like TypeScript and React complements the team's existing technology stack.
 
-As outlined in my resume, I have a strong background in designing and implementing solutions independently. My work has focused on performance optimization, API integration, and database management, with a strong emphasis on creating seamless user interactions. I continuously refine my development process by leveraging tools like Jest for testing and CI/CD pipelines to ensure efficient and high-quality deployments. I believe these skills align with the needs of the Full Stack Developer role and your team’s commitment to innovation.
+As an engineer, I am a strong believer in contributing positively to engineering culture through effective collaboration and attention to detail. I leverage tools like Jest for testing and CI/CD pipelines to ensure efficient, high-quality deployments, and I am prepared to partner effectively with Product Managers and Technical Program Managers. My ability to handle complex systems architecture and my focus on scalability and reliability would be an immediate asset to the Video Platform team.
 
-I have attached my resume for your review, which provides more details about my experience, skills, and education. Please feel free to reach out if you need any additional information. I look forward to the opportunity to contribute to ExampleTech Solutions’ success and would welcome the chance to discuss how my expertise can support your team.
+I have attached my resume for your review, which provides more details about my experience, skills, and education. I welcome the opportunity to discuss how my proficiency in algorithms, data structures, and core software development can contribute to the success of Twitch's essential video delivery systems.
 
 Best regards,
 Ethan Garrison

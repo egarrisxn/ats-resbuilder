@@ -6,7 +6,6 @@ import SaveResumeButton from './SaveResumeButton'
 import SaveCoverLetterButton from './SaveCoverLetterButton'
 
 export default function AllButtons() {
-  // eslint-disable-next-line no-unused-vars
   const [pdfUrl, setPdfUrl] = useState(null)
 
   const handleGenerate = (url) => {

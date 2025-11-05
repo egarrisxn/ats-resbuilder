@@ -31,7 +31,7 @@ export default function DocsPage() {
               <div className='pb-4'>
                 <div className='mb-1 font-semibold text-slate-900'>Visit the GitHub Repository</div>
                 <div className='text-sm text-slate-700 md:text-base'>
-                  Navigate to the project's GitHub page to access the source code and further
+                  Navigate to the projects GitHub page to access the source code and further
                   instructions.
                 </div>
                 <a

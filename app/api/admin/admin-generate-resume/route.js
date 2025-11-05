@@ -25,7 +25,7 @@ export async function POST(req) {
 
     let {width, height} = page.getSize()
 
-    //! Font Sizes and Spacing (resume-optimized)
+    //! Font Sizes and Spacing
     const h1 = 26 // Name
     const h2 = 16 // Title
     const h3 = 14 // Section headers
@@ -81,7 +81,7 @@ export async function POST(req) {
           : rgb(0, 0, 0) // Black text
 
       if (isBulletPoint) {
-        //! Draw bullet
+        //! Draw bullet point
         page.drawText('•', {
           x: margin,
           y: yPosition,
@@ -90,8 +90,9 @@ export async function POST(req) {
           color: rgb(0.039, 0.58, 0.98),
         })
 
-        //! Draw text after bullet
+        //! Draw text after bullet point with some indent
         const textAfterBullet = trimmedLine.replace(/^- /, '').trim()
+
         page.drawText(textAfterBullet, {
           x: margin + bulletIndent,
           y: yPosition,
@@ -99,18 +100,21 @@ export async function POST(req) {
           font: currentFont,
           color: textColor,
         })
-        yPosition -= lineHeight
+
+        //! Apply additional line spacing for bullet points
+        yPosition -= 1.03 * lineHeight
       } else {
-        //! Split into wrapped lines
+        //! Split the line into chunks that fit the page width
         const words = trimmedLine.split(' ')
         let currentLine = ''
         words.forEach((word) => {
           const testLine = `${currentLine} ${word}`.trim()
-          const testWidth = currentFont.widthOfTextAtSize(testLine, currentFontSize)
+          const testLineWidth = currentFont.widthOfTextAtSize(testLine, currentFontSize)
 
-          if (testWidth < maxLineWidth) {
+          if (testLineWidth < maxLineWidth) {
             currentLine = testLine
           } else {
+            //! Draw the current line and reset for the next line
             page.drawText(currentLine, {
               x: margin,
               y: yPosition,
@@ -119,10 +123,15 @@ export async function POST(req) {
               color: textColor,
             })
             yPosition -= lineHeight
+
+            if (yPosition < 0) {
+              return //? Stop rendering if there's no space left
+            }
             currentLine = word
           }
         })
 
+        //! Draw the last line if any content is left
         if (currentLine) {
           page.drawText(currentLine, {
             x: margin,
@@ -152,6 +161,7 @@ export async function POST(req) {
         yPosition -= 0.6 * lineHeight
       }
 
+      //! Apply paragraph spacing after empty lines
       if (trimmedLine === '') {
         yPosition -= paragraphSpacing
       }
@@ -160,7 +170,7 @@ export async function POST(req) {
     //! Save the PDF
     const pdfBytes = await pdfDoc.save()
 
-    //! Return response
+    //! Return the generated PDF as a response
     return new Response(new Uint8Array(pdfBytes), {
       headers: {
         'Content-Type': 'application/pdf',

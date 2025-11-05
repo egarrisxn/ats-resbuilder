@@ -1,8 +1,5 @@
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   images: {
     remotePatterns: [
       {
@@ -11,6 +8,7 @@ const nextConfig = {
       },
     ],
   },
+  reactCompiler: true,
 }
 
 export default nextConfig

@@ -8,78 +8,77 @@ export async function POST(req) {
     //! Create a new PDFDocument
     const pdfDoc = await PDFDocument.create()
 
-    //! Define page size
-    //? US Letter format
+    //! Define page size (US Letter)
     const pageWidth = 8.5 * 72 // 612 points (8.5 inches)
     const pageHeight = 11 * 72 // 792 points (11 inches)
-    //? A4 format
+
+    //! Define page size (A4)
     // const pageWidth = 8.27 * 72 // 595.44 points (8.27 inches)
     // const pageHeight = 11.69 * 72 // 841.68 points (11.69 inches)
 
-    //! Add a page with the desired size
+    //! Add a page
     const page = pdfDoc.addPage([pageWidth, pageHeight])
 
     //! Embed fonts
-    const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica)
-    const helveticaBoldFont = await pdfDoc.embedFont(StandardFonts.HelveticaBold)
+    const fontRegular = await pdfDoc.embedFont(StandardFonts.Helvetica)
+    const fontBold = await pdfDoc.embedFont(StandardFonts.HelveticaBold)
 
     let {width, height} = page.getSize()
 
     //! Font Sizes and Spacing
-    const h1 = 19.5 // Font size for the largest header
-    const h2 = 12 // Font size for specific larger headers
-    const h3 = 10.5 // Font size for default headers
-    const p = 10.5 // Font size for body text
-    const lineHeight = 1.05 * p // Line height for body text
-    const paragraphSpacing = 0.66 * lineHeight // Paragraph spacing
-    const bulletSize = p // Bullet point size
-    const bulletIndent = 6 // Indent after bullet point
-    const margin = 22 // Margin from page edges
-    const maxLineWidth = width - 2 * margin // Maximum width for text lines
+    const h1 = 26 // Name
+    const h2 = 16 // Title
+    const h3 = 14 // Section headers
+    const h4 = 11.5 // Job/project headers
+    const p = 11 // Body text
 
-    //! Initial y position for text, starting from top margin
-    let yPosition = height - 3.5 * p
+    const lineHeight = 1.2 * p
+    const paragraphSpacing = 0.8 * lineHeight
+    const bulletSize = p
+    const bulletIndent = 7
+    const margin = 32
+    const maxLineWidth = width - 2 * margin
+
+    //! Initial y position
+    let yPosition = height - 48
 
     //! Define header keywords to identify header lines
     const headerKeywords = {
       'Riley Morgan': h1,
       'Full Stack Developer': h2,
-      Summary: h2,
-      Experience: h2,
-      'Full Stack Developer | June 2023 - Present': h3,
-      'Sales Lead | Aug 2021 - Jan 2023': h3,
-      'Sales Supervisor | Dec 2019 - Aug 2021': h3,
-      'Assistant Manager | Nov 2017 - Dec 2019': h3,
-      'Client Manager | Oct 2014 - Nov 2017': h3,
-      Education: h2,
+      Summary: h3,
+      Experience: h3,
+      'Full Stack Developer | June 2023 - Present': h4,
+      'Sales Lead | Aug 2021 - Jan 2023': h4,
+      'Sales Supervisor | Dec 2019 - Aug 2021': h4,
+      'Assistant Manager | Nov 2017 - Dec 2019': h4,
+      'Client Manager | Oct 2014 - Nov 2017': h4,
+      Education: h3,
       'Certification - Full Stack Web Development Boot Camp | 2023': h3,
       'Studied - Business Administration | 2008 - 2009': h3,
-      Skills: h2,
-      Projects: h2,
-      'Loop Lane | https://github.com/rileymdev/looplane': h3,
-      'AltWear | https://github.com/rileymdev/altwear': h3,
-      'DevHues | https://github.com/rileymdev/devhues': h3,
-      'FocusNode | https://github.com/rileymdev/focusnode': h3,
+      Skills: h3,
+      Projects: h3,
+      'Loop Lane | https://github.com/rileymdev/looplane': h4,
+      'AltWear | https://github.com/rileymdev/altwear': h4,
+      'DevHues | https://github.com/rileymdev/devhues': h4,
+      'FocusNode | https://github.com/rileymdev/focusnode': h4,
     }
 
-    //! Loop through the content lines
+    //! Loop through lines
     lines.forEach((line) => {
-      if (yPosition < 0) {
-        return //? Stop rendering if there's no space left on the page
-      }
+      if (yPosition < margin) return // Stop if out of space
 
       const trimmedLine = line.trim()
       const isHeader = headerKeywords.hasOwnProperty(trimmedLine)
       const isBulletPoint = trimmedLine.startsWith('-')
 
-      //! Determine the font, size, and color
-      const currentFont = isHeader ? helveticaBoldFont : helveticaFont
+      const currentFont = isHeader ? fontBold : fontRegular
       const currentFontSize = isHeader ? headerKeywords[trimmedLine] || h3 : p
 
       const textColor =
         trimmedLine === 'Riley Morgan'
-          ? rgb(0.039, 0.58, 0.98) //? Blue for the largest header
-          : rgb(0, 0, 0) //? Black for all other text
+          ? rgb(0.039, 0.58, 0.98) // Blue name
+          : rgb(0, 0, 0) // Black text
 
       if (isBulletPoint) {
         //! Draw bullet point
@@ -87,7 +86,7 @@ export async function POST(req) {
           x: margin,
           y: yPosition,
           size: bulletSize,
-          font: helveticaBoldFont,
+          font: fontBold,
           color: rgb(0.039, 0.58, 0.98),
         })
 
@@ -145,9 +144,21 @@ export async function POST(req) {
         }
       }
 
-      //! Add extra space after the h1 (name)
+      //! Extra spacing rules
       if (trimmedLine === 'Riley Morgan') {
-        yPosition -= 0.25 * lineHeight
+        yPosition -= 0.4 * lineHeight
+      }
+
+      if (trimmedLine === 'Full Stack Developer') {
+        yPosition -= 0.5 * lineHeight
+      }
+
+      if (
+        ['Summary', 'Work Experience', 'Education & Certifications', 'Skills', 'Projects'].includes(
+          trimmedLine,
+        )
+      ) {
+        yPosition -= 0.6 * lineHeight
       }
 
       //! Apply paragraph spacing after empty lines

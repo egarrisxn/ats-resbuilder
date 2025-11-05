@@ -6,7 +6,6 @@ import SaveAdminResumeButton from './SaveAdminResumeButton'
 import SaveAdminCoverLetterButton from './SaveAdminCoverLetterButton'
 
 export default function AdminButtons() {
-  // eslint-disable-next-line no-unused-vars
   const [pdfUrl, setPdfUrl] = useState(null)
 
   const handleGenerate = (url) => {
